@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import logo from '../Group 40.png'
+import logo from '../Group 40-min.png'
 
 const Icon = ({icon, link}) => (
   <span className="icon">
