@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import logo from '../Group 40.png'
 
 const Icon = ({icon, link}) => (
   <span className="icon">
@@ -13,7 +14,7 @@ const Icon = ({icon, link}) => (
 const IndexPage = () => (
   <div className="row left">
     <div className="col-md-9 left">
-      <img className="left" src="Group 40.png" />
+      <img className="left" src={logo} />
     </div>
     <div className="col-md-3">
       <div className="container info">
