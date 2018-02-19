@@ -18,8 +18,9 @@ const IndexPage = () => (
     </div>
     <div className="col-md-3">
       <div className="container info">
-        <p>info@shuffle.ph</p>
-        <p>+63 917 834 9933</p>
+        <p>hello@shuffle.ph</p>
+        <p>+63 995 013 4763</p>
+        <p>+632 404 2101</p>
         <p>187 N. Averilla Street</p>
         <p>1500 San Juan Del Monte</p>
         <Icon icon="instagram" link="https://www.instagram.com/shufflemakerspace/"/>
