@@ -37,14 +37,14 @@ progress {
 template {
   display: none;
 }
-a {
+/*a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
   outline-width: 0;
-}
+}*/
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -619,11 +619,11 @@ pre tt:after {
   }
 }
 
-body {
+/*body {
   background-color: #7D2044;
   color: #E5EFD4;
   font-family: "Lucida Grande";
-}
+}*/
 
 .info {
   padding: 1em;
@@ -640,9 +640,10 @@ body {
 
 
 .icon {
-  color: #F2B31D;
   font-size: 35px;
-  padding-right: 0.3em;
+  float:right;
+  margin-top: 0.75em;
+  padding-right: 1em;
 }
 
 .icon a {

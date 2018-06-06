@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import logo from '../Group 40-min.png'
+import '../layouts/style.css'
 
 const Icon = ({icon, link}) => (
   <span className="icon">
@@ -11,29 +12,49 @@ const Icon = ({icon, link}) => (
 
 )
 
-const IndexPage = () => (
-  <div className="row left">
-    <div className="col-md-9 left">
-      <img className="left" src={logo} />
-    </div>
-    <div className="col-md-3">
-      <div className="container info">
-        <p>hello@shuffle.ph</p>
-        <p>+63 995 013 4763</p>
-        <p>+632 404 2101</p>
-        <p>187 N. Averilla Street</p>
-        <p>1500 San Juan Del Monte</p>
-        <Icon icon="instagram" link="https://www.instagram.com/shufflemakerspace/"/>
-        <Icon icon="facebook" link="https://www.facebook.com/shufflemakerspace/"/>
+const menu = [
+  {
+    title: 'ABOUT SHUFFLE',
+    styles: 'bg-og tx-ma',
+    path: '/about'
+  },
+  {
+    title: 'MAKER SPACE',
+    styles: 'bg-bl tx-gr',
+    path: '/makerspace'
+  },
+  {
+    title: 'UPCOMING EVENTS',
+    styles: 'bg-gr tx-bl',
+    path: '/events'
+  },
+  {
+    title: 'CO-WORKING SPACE',
+    styles: 'bg-ma tx-og',
+    path: '/coworking'
+  },
+]
 
-
-      </div>
-    </div>
-
-
-
+const MenuItem = ({title, styles, path}) => (
+  <div className={`col-md-6 ${styles}`}>
+  <Link
+      to={path}
+    >
+    <h2 className="menu-title"> {title}
+    </h2>
+  </Link>
 
   </div>
+)
+
+const IndexPage = () => (
+
+    <div className="row row-eq-height">
+      {menu.map((item) => (
+        <MenuItem title={item.title} styles={item.styles} path={item.path} />
+      ))}
+    </div>
+
 )
 
 export default IndexPage
