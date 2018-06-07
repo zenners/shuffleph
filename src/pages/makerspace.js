@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Link from 'gatsby-link'
 import axios from 'axios'
 import MenuItem from '../components/Menuitem'
+import Header from '../components/Header'
 import { LocalForm, Control, Errors } from 'react-redux-form';
 
 import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
@@ -295,8 +296,9 @@ class MakerSpacePage extends Component {
   render(){
     return(
       <div>
-        <div className="row row-eq-height">
-          <div className="col-md-6 content-body form-container">
+       <Header />
+        <div className="flex-wrap row-eq-height">
+          <div className="col-md-6 content-body form-container mtop">
             <LocalForm
               onUpdate={(form) => this.handleUpdate(form)}
               onChange={(values) => this.handleChange(values)}

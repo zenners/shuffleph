@@ -8,7 +8,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1528276892856,
+      "updatedAt": 1528358977476,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6503a7dd3f4706a8182d3446dc222dde",
+        "contentDigest": "224288156dc8fba759d7df4d98b6cb45",
         "owner": "internal-data-bridge"
       }
     },
@@ -435,6 +435,10 @@
             "version": "^2.0.5"
           },
           {
+            "name": "jquery",
+            "version": "^3.3.1"
+          },
+          {
             "name": "netlify-cms",
             "version": "^1.8.4"
           },
@@ -477,16 +481,16 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": 8002,
+      "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-06T09:21:24.758Z",
+      "buildTime": "2018-06-07T08:09:32.950Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bc1233830056398d57bd499a5c6b3494",
+        "contentDigest": "fe58ac601cd4118f6f88eeda250d2c84",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -499,7 +503,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1528276892918,
+      "updatedAt": 1528358977509,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/404.js",
@@ -508,7 +512,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8da965d27a99d17d5ec62dc15994f3c2",
+        "contentDigest": "fdcb784091001edb433520063ccbc275",
         "owner": "internal-data-bridge"
       }
     },
@@ -520,7 +524,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
-      "updatedAt": 1528276892921,
+      "updatedAt": 1528358977516,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/about.js",
@@ -529,7 +533,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3e22f3a4a593a4f47e444077c1fb51cb",
+        "contentDigest": "2f537a6ca176216e2dd2f94db5255f59",
         "owner": "internal-data-bridge"
       }
     },
@@ -541,7 +545,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/coworking.js",
       "componentChunkName": "component---src-pages-coworking-js",
       "context": {},
-      "updatedAt": 1528276892924,
+      "updatedAt": 1528358977522,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/coworking.js",
@@ -550,7 +554,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "175946b55144dcc9b0c1f0cf93a4cdac",
+        "contentDigest": "5974018c3d03d4ad44fb094a6d921d1c",
         "owner": "internal-data-bridge"
       }
     },
@@ -562,7 +566,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events.js",
       "componentChunkName": "component---src-pages-events-js",
       "context": {},
-      "updatedAt": 1528276892927,
+      "updatedAt": 1528358977527,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events.js",
@@ -571,7 +575,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "36e653f716e60c7858cd858901115da2",
+        "contentDigest": "acc4994307291ecabc18e9a105a3a356",
         "owner": "internal-data-bridge"
       }
     },
@@ -583,7 +587,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1528276892936,
+      "updatedAt": 1528358977532,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/index.js",
@@ -592,7 +596,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "55f2cde12becd2ae0e91d512a1e7a313",
+        "contentDigest": "bb1beedc5390aa63f9b5fed59b34ec55",
         "owner": "internal-data-bridge"
       }
     },
@@ -604,7 +608,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/makerspace.js",
       "componentChunkName": "component---src-pages-makerspace-js",
       "context": {},
-      "updatedAt": 1528276892939,
+      "updatedAt": 1528358977537,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/makerspace.js",
@@ -613,7 +617,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d18338b498a558ea4facfcbcb8593c55",
+        "contentDigest": "c7283bb26ff9224380571b9f1e304f32",
         "owner": "internal-data-bridge"
       }
     },
@@ -625,7 +629,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "updatedAt": 1528276892941,
+      "updatedAt": 1528358977542,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/page-2.js",
@@ -634,7 +638,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "59ba4c41e5caa3fbe0ca847d940a8404",
+        "contentDigest": "67a5a9b6b5dc57c124138bf7f9131a6c",
         "owner": "internal-data-bridge"
       }
     },
@@ -646,7 +650,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1528276892873,
+      "updatedAt": 1528358977495,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/404.js",
@@ -655,14 +659,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9537d241347fc0ad53631f4ffdeb582a",
+        "contentDigest": "a9941966d85314d06b649ba19bf3cf83",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b0ace69fbfed8f155ff3deb3b4242835"
+    "PLUGINS_HASH": "050d4cc2a8b37d81442e119a9de9bf22"
   },
   "componentDataDependencies": {
     "nodes": {},

@@ -10,9 +10,9 @@ const Icon = ({icon, link}) => (
 )
 
 const MenuItem = ({title, styles, path, isActive}) => (
-  <div className={`${styles}`}>
+  <div className={`d-none d-sm-flex ${styles}`}>
     <Link to={path}>
-      <h2 className={isActive ? 'menu-title' : 'sm-menu-title'}>
+      <h2 className={isActive ? 'md-menu-title' : 'xsm-menu-title'}>
       {title}
 
       </h2>

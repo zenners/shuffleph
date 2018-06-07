@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import MenuItem from '../components/Menuitem'
+import Header from '../components/Header'
 import logo from '../Group 40-min.png'
 import '../layouts/style.css'
 import data from '../content/event'
@@ -49,11 +50,10 @@ const EventItem = ({index, date, title, by, from, to}) => {
 }
 
 
-
-
 const AboutPage = () => (
   <div>
-    <div className="row row-eq-height">
+   <Header />
+    <div className="flex-wrap row-eq-height">
       <div className="col-md-6 no-pad">
         <div className="d-flex flex-column">
         {menu.map((item) => (
@@ -62,7 +62,7 @@ const AboutPage = () => (
         </div>
 
       </div>
-      <div className="col-md-6 content-body">
+      <div className="col-md-6 mtop">
         <div className="event-container">
           {data.map((event, index) => (
             <EventItem index={index} date={event.date} title={event.title} by={event.by}

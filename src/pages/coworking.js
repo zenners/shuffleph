@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import MenuItem from '../components/Menuitem'
+import Header from '../components/Header'
 import logo from '../Group 40-min.png'
 import '../layouts/style.css'
 import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
@@ -76,14 +77,12 @@ function renderOptions(opts){
         <Label className="row" >
           <Col xs={4}>
             <Control model=".passType" component={Radio} name="passtype" value={opt.title} />
-
             {opt.title}
           </Col>
-
-          <Col xs={{size: 5}}>
+          <Col xs={{size: 4}}>
             <p>{opt.time}</p>
           </Col>
-          <Col xs={{size: 3}}>
+          <Col xs={{size: 4}}>
             <p>P {opt.price}</p>
           </Col>
         </Label>
@@ -138,8 +137,9 @@ class Coworking extends Component {
   render(){
     return(
       <div>
-        <div className="row row-eq-height">
-          <div className="col-md-6 content-body form-container">
+       <Header />
+        <div className="flex-wrap row-eq-height">
+          <div className="col-md-6 content-body form-container mtop">
           <LocalForm
             onUpdate={(form) => this.handleUpdate(form)}
             onChange={(values) => this.handleChange(values)}
@@ -148,7 +148,7 @@ class Coworking extends Component {
             <MakerForm>
               <InfoSection />
               <PassType />
-              <Button className="bg-ma tx-og"block>Submit</Button>
+              <Button className="bg-ma tx-og mt-5"block>Submit</Button>
             </MakerForm>
           </LocalForm>
 
