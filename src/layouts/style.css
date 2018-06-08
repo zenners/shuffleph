@@ -74,6 +74,7 @@ h2 {margin-bottom: 0}
 
 .flex-wrap{ display: flex; flex-wrap: wrap;}
 .navbar-collapse {height: 100vh;}
+.icon.social {color: #913156;}
 
 
 
@@ -89,6 +90,7 @@ h2 {margin-bottom: 0}
     .form-container {padding: 2em 3em 2em 5em; height: auto; overflow:auto; font-size: 12px;}
     .footer-mrgn {margin-top:1rem; margin-left: 1rem; font-size: 12px;}
     .title-head { font-size: 1.4em;}
+    .icon.social {margin-top: -0.3em}
 	}
 
   /* Extra Small Devices, Phones */
@@ -100,8 +102,9 @@ h2 {margin-bottom: 0}
     .abt-content { height: auto; overflow: auto;}
     .event-container {height: auto; overflow: auto; padding: 3em;}
     .form-container {padding: 2em 3em 2em 4em; height: auto; overflow:auto;}
-    .footer-mrgn {margin-top:1rem; font-size: 12px;}
+    .footer-mrgn {margin-top:1rem; font-size: 13px;}
     .title-head { font-size: 2.2em;}
+    .icon.social {margin-top: -0.3em}
   }
 
   @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -114,6 +117,7 @@ h2 {margin-bottom: 0}
     .event-container {height: auto; overflow: auto; padding: 3em;}
     .form-container {padding: 3em 4em 0em 4em; height: auto; overflow:auto; font-size: 13px;}
     .title-head { font-size: 1.6em;}
+    .icon.social {margin-top: -0.3em}
   }
 
 	/* Small Devices, Tablets */
@@ -121,7 +125,7 @@ h2 {margin-bottom: 0}
     label.col-sm-2 { padding-right: 0px; font-size: 12px;}
     .navbar {display: none !important;}
     .flex-wrap {display: flex !important;}
-    .footer-mrgn {margin-top:3rem; font-size: 12px;}
+    .footer-mrgn {margin-top:1.5rem; font-size: 12px;}
     .mtop {margin-top: 0rem;}
     .md-menu-title {font-size: 2.5rem; padding: 2rem; margin-bottom: 130px; margin-top: 170px;}
     .abt-content { height: 934px; overflow: auto;}
@@ -137,7 +141,7 @@ h2 {margin-bottom: 0}
 	@media only screen and (min-width : 992px) {
     .navbar {display: none !important;}
     .flex-wrap {display: flex !important;}
-    .footer-mrgn {margin-top:3rem; font-size: 16px;}
+    .footer-mrgn {margin-top:1.5rem; font-size: 16px;}
     .mtop {margin-top: 0rem;}
     .md-menu-title {font-size: 4.6rem; padding: 2rem; margin-bottom: 190px; margin-top: 190px;}
     .abt-content { height: 1270px; overflow: auto;}
@@ -161,5 +165,7 @@ h2 {margin-bottom: 0}
     .form-container {padding: 2em 3em 2em 6em; height: 558px; overflow:auto; font-size: 0.8rem;}
     .navbar {display: none !important;}
     .footer-mrgn {margin-top:3.5rem;}
+    .icon {margin-top: 0.6em}
+    .icon.social {margin-top: -0.7em}
     .div-height{ height: auto;}
 	}
