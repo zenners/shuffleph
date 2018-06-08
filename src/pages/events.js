@@ -15,7 +15,7 @@ const menu = [
     isActive: false,
   },
   {
-    title: 'MAKERSPACE',
+    title: 'MAKER SPACE',
     styles: 'bg-bl tx-gr',
     path: '/makerspace',
     isActive: false,

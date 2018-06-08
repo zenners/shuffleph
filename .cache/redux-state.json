@@ -8,7 +8,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1528358977476,
+      "updatedAt": 1528443897629,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "224288156dc8fba759d7df4d98b6cb45",
+        "contentDigest": "2553ec1f3c18f85d7fd0b671c8ffe3e7",
         "owner": "internal-data-bridge"
       }
     },
@@ -485,12 +485,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-07T08:09:32.950Z",
+      "buildTime": "2018-06-08T07:44:53.232Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fe58ac601cd4118f6f88eeda250d2c84",
+        "contentDigest": "c01bf2ad51101862c19b3d30bd4d3c9c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -503,7 +503,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1528358977509,
+      "updatedAt": 1528443897690,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/404.js",
@@ -512,7 +512,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fdcb784091001edb433520063ccbc275",
+        "contentDigest": "070f09b556b801c13bbaa628fd547267",
         "owner": "internal-data-bridge"
       }
     },
@@ -524,7 +524,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
-      "updatedAt": 1528358977516,
+      "updatedAt": 1528443897696,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/about.js",
@@ -533,7 +533,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2f537a6ca176216e2dd2f94db5255f59",
+        "contentDigest": "a492ba63ac118ab2bf1d4705fc1c9448",
         "owner": "internal-data-bridge"
       }
     },
@@ -545,7 +545,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/coworking.js",
       "componentChunkName": "component---src-pages-coworking-js",
       "context": {},
-      "updatedAt": 1528358977522,
+      "updatedAt": 1528443897702,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/coworking.js",
@@ -554,7 +554,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5974018c3d03d4ad44fb094a6d921d1c",
+        "contentDigest": "ab3358890d33fa0fe66d80b4c2cb48ed",
         "owner": "internal-data-bridge"
       }
     },
@@ -566,7 +566,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events.js",
       "componentChunkName": "component---src-pages-events-js",
       "context": {},
-      "updatedAt": 1528358977527,
+      "updatedAt": 1528443897707,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events.js",
@@ -575,7 +575,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "acc4994307291ecabc18e9a105a3a356",
+        "contentDigest": "ffc7cc4b9230fb9c2aebe9f6955817bb",
         "owner": "internal-data-bridge"
       }
     },
@@ -587,7 +587,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1528358977532,
+      "updatedAt": 1528443897712,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/index.js",
@@ -596,7 +596,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bb1beedc5390aa63f9b5fed59b34ec55",
+        "contentDigest": "58773a0f0472cc697641cbb9ac2b3f17",
         "owner": "internal-data-bridge"
       }
     },
@@ -608,7 +608,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/makerspace.js",
       "componentChunkName": "component---src-pages-makerspace-js",
       "context": {},
-      "updatedAt": 1528358977537,
+      "updatedAt": 1528443897717,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/makerspace.js",
@@ -617,7 +617,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c7283bb26ff9224380571b9f1e304f32",
+        "contentDigest": "1ee39ab1298d448e615bed6d370734bc",
         "owner": "internal-data-bridge"
       }
     },
@@ -629,7 +629,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "updatedAt": 1528358977542,
+      "updatedAt": 1528443897721,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/page-2.js",
@@ -638,7 +638,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "67a5a9b6b5dc57c124138bf7f9131a6c",
+        "contentDigest": "08b4a6bcd9262312a0b4976ff81a7ac2",
         "owner": "internal-data-bridge"
       }
     },
@@ -650,7 +650,7 @@
       "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1528358977495,
+      "updatedAt": 1528443897668,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/404.js",
@@ -659,7 +659,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a9941966d85314d06b649ba19bf3cf83",
+        "contentDigest": "e363b7b90721b28c41dd497dd17c9ced",
         "owner": "internal-data-bridge"
       }
     }

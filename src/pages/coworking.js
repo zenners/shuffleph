@@ -28,7 +28,7 @@ const menu = [
     isActive: false,
   },
   {
-    title: 'MAKERSPACE',
+    title: 'MAKER SPACE',
     styles: 'bg-bl tx-gr',
     path: '/makerspace',
     isActive: false,
@@ -139,7 +139,7 @@ class Coworking extends Component {
       <div>
        <Header />
         <div className="flex-wrap row-eq-height">
-          <div className="col-md-6 content-body form-container mtop">
+          <div className="col-md-6 content-body form-container cnt-size mtop">
           <LocalForm
             onUpdate={(form) => this.handleUpdate(form)}
             onChange={(values) => this.handleChange(values)}

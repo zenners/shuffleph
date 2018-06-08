@@ -23,7 +23,7 @@ const menu = [
     isActive: false,
   },
   {
-    title: 'MAKERSPACE',
+    title: 'MAKER SPACE',
     styles: 'bg-bl tx-gr',
     path: '/makerspace',
     isActive: false,
@@ -41,7 +41,7 @@ const AboutContent = ({title, copy, othercopy, subcopy}) => (
   <div className="">
     <h3 className="tx-ma title-head"> {title} </h3>
     <p className="abt-body"> {copy} </p>
-    <div>  <img className="img-fluid" src={img} />  </div>
+    <div>  <img className="img-fluid" style={{marginBottom: '15.2px'}} src={img} />  </div>
     <p className="abt-body">
     {othercopy}
     </p>
@@ -63,7 +63,7 @@ const AboutPage = () => (
       </div>
       <div className="col-md-6 content-body abt-content">
         <div className="bg-ma text-center">
-          <img style={{maxHeight: '263px'}}src={Shuffle}/>
+          <img className="pt-4" style={{maxHeight: '263px'}} src={Shuffle}/>
         </div>
         <AboutContent
           title={data.title}

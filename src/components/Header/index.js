@@ -1,45 +1,49 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
 
+const Icon = ({ icon, link }) => (
+  <span className="icon">
+    <a href={link}>
+      <i className={`fab fa-${icon}`} />
+    </a>
+  </span>
+);
+
 const menu = [
   {
-    title: 'ABOUT SHUFFLE',
-    styles: 'bg-og tx-ma',
-    path: '/about',
-    isActive: true,
+    title: "ABOUT SHUFFLE",
+    styles: "bg-og tx-ma",
+    path: "../about",
+    isActive: true
   },
   {
-    title: 'UPCOMING EVENTS',
-    styles: 'bg-gr tx-bl',
-    path: '/events',
-    isActive: false,
+    title: "UPCOMING EVENTS",
+    styles: "bg-gr tx-bl",
+    path: "../events",
+    isActive: false
   },
   {
-    title: 'MAKERSPACE',
-    styles: 'bg-bl tx-gr',
-    path: '/makerspace',
-    isActive: false,
+    title: "MAKERSPACE",
+    styles: "bg-bl tx-gr",
+    path: "../makerspace",
+    isActive: false
   },
 
   {
-    title: 'CO-WORKING SPACE',
-    styles: 'bg-ma tx-og',
-    path: '/coworking',
-    isActive: false,
-  },
-]
+    title: "CO-WORKING SPACE",
+    styles: "bg-ma tx-og",
+    path: "../coworking",
+    isActive: false
+  }
+];
 
-const MenuItem = ({title, styles, path}) => (
-  <div className={`col-md-6 ${styles}`}>
-  <Link
-      to={path}
-    >
-    <h2 className="md-menu-title"> {title}
-    </h2>
-  </Link>
-
-  </div>
-)
+const MenuItem = ({ title, styles, path }) => (
+  <li className={`col-md-6 ${styles}`}>
+    <Link to={path}>
+      <h2 className="md-menu-title sm"> {title}</h2>
+    </Link>
+  </li>
+);
 
 class Header extends Component {
   render() {
@@ -63,26 +67,15 @@ class Header extends Component {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
-
-            <ul className="navbar-nav ml-auto pl-4">
-            <div className="row row-eq-height d-none d-sm-flex">
-              {menu.map((item) => (
-                <MenuItem title={item.title} styles={item.styles} path={item.path} />
+          <div className="collapse navbar-collapse" id="navbarResponsive" style={{height: '100vh'}}>
+            <ul className="navbar-nav ml-auto mt-5">
+              {menu.map(item => (
+                <MenuItem
+                  title={item.title}
+                  styles={item.styles}
+                  path={item.path}
+                />
               ))}
-            </div>
-              <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger pr-3" to="../about">About</Link>
-              </li>
-              <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger pr-3" to="../events">Events</Link>
-              </li>
-              <li className="nav-item">
-               <Link className="nav-link js-scroll-trigger pr-3" to="../makerspace">MakerSpace</Link>
-              </li>
-              <li className="nav-item">
-               <Link className="nav-link js-scroll-trigger pr-3" to="../coworking">Co-Working Space</Link>
-              </li>
             </ul>
           </div>
         </div>
