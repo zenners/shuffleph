@@ -2,7 +2,7 @@
 templateKey: events
 title: Sculpt and Motion
 by: Karenn Fajardo
-date: '2018-03-19T00:00:00+08:00'
+date: 'March 19, 2018'
 adates:
   bdates:
     - date: 'April 7, 2018'
