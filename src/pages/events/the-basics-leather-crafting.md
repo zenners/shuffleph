@@ -4,7 +4,7 @@ title: 'The Basics: Leather Crafting'
 by: The Paper Plane Project
 adates:
   bdates:
-    - date: 'May 27, 2018'
+    - date: 'March 17, 2018'
 start: '09:00am'
 end: '12:00pm'
 ---
