@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "125bf3413cdc4ecf2757ca32d8b8f7e0",
+        "contentDigest": "4b4901c4efe0cab70f6fa7c19d8a3050",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -734,12 +734,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-11T06:16:23.416Z",
+      "buildTime": "2018-06-11T07:06:46.442Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "999221cb26cc06787bf25aa446392e4a",
+        "contentDigest": "a8a45b5c3cc24b9c9f64b69ab4c1fec9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1998,9 +1998,9 @@
       "extension": "js",
       "size": 4070,
       "prettySize": "4.07 kB",
-      "modifiedTime": "2018-06-11T06:50:22.402Z",
-      "accessTime": "2018-06-11T02:37:35.809Z",
-      "changeTime": "2018-06-11T06:50:22.402Z",
+      "modifiedTime": "2018-06-11T07:20:00.736Z",
+      "accessTime": "2018-06-11T07:19:07.621Z",
+      "changeTime": "2018-06-11T07:20:00.736Z",
       "birthTime": "2018-06-11T02:37:35.809Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
@@ -2014,14 +2014,14 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 562949954321598,
-      "atimeMs": 1528684655809.4697,
-      "mtimeMs": 1528699822402.4475,
-      "ctimeMs": 1528699822402.4475,
+      "ino": 844424931025118,
+      "atimeMs": 1528701547620.9656,
+      "mtimeMs": 1528701600736.2266,
+      "ctimeMs": 1528701600736.2266,
       "birthtimeMs": 1528684655809.4697,
-      "atime": "2018-06-11T02:37:35.809Z",
-      "mtime": "2018-06-11T06:50:22.402Z",
-      "ctime": "2018-06-11T06:50:22.402Z",
+      "atime": "2018-06-11T07:19:07.621Z",
+      "mtime": "2018-06-11T07:20:00.736Z",
+      "ctime": "2018-06-11T07:20:00.736Z",
       "birthtime": "2018-06-11T02:37:35.809Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/about.js absPath of file": {
@@ -2346,9 +2346,9 @@
       "extension": "md",
       "size": 343,
       "prettySize": "343 B",
-      "modifiedTime": "2018-06-11T06:07:11.792Z",
+      "modifiedTime": "2018-06-11T07:06:02.597Z",
       "accessTime": "2018-06-11T02:37:35.810Z",
-      "changeTime": "2018-06-11T06:07:11.792Z",
+      "changeTime": "2018-06-11T07:06:02.597Z",
       "birthTime": "2018-06-11T02:37:35.810Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events",
@@ -2364,12 +2364,12 @@
       "rdev": 0,
       "ino": 844424931032256,
       "atimeMs": 1528684655810.471,
-      "mtimeMs": 1528697231791.9585,
-      "ctimeMs": 1528697231791.9585,
+      "mtimeMs": 1528700762597.3071,
+      "ctimeMs": 1528700762597.3071,
       "birthtimeMs": 1528684655810.471,
       "atime": "2018-06-11T02:37:35.810Z",
-      "mtime": "2018-06-11T06:07:11.792Z",
-      "ctime": "2018-06-11T06:07:11.792Z",
+      "mtime": "2018-06-11T07:06:02.597Z",
+      "ctime": "2018-06-11T07:06:02.597Z",
       "birthtime": "2018-06-11T02:37:35.810Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file": {
@@ -2391,9 +2391,9 @@
       "extension": "md",
       "size": 349,
       "prettySize": "349 B",
-      "modifiedTime": "2018-06-11T06:07:25.642Z",
+      "modifiedTime": "2018-06-11T07:06:05.988Z",
       "accessTime": "2018-06-11T02:37:35.811Z",
-      "changeTime": "2018-06-11T06:07:25.642Z",
+      "changeTime": "2018-06-11T07:06:05.988Z",
       "birthTime": "2018-06-11T02:37:35.811Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events",
@@ -2409,12 +2409,12 @@
       "rdev": 0,
       "ino": 844424931032257,
       "atimeMs": 1528684655811.4714,
-      "mtimeMs": 1528697245642.4329,
-      "ctimeMs": 1528697245642.4329,
+      "mtimeMs": 1528700765988.0603,
+      "ctimeMs": 1528700765988.0603,
       "birthtimeMs": 1528684655811.4714,
       "atime": "2018-06-11T02:37:35.811Z",
-      "mtime": "2018-06-11T06:07:25.642Z",
-      "ctime": "2018-06-11T06:07:25.642Z",
+      "mtime": "2018-06-11T07:06:05.988Z",
+      "ctime": "2018-06-11T07:06:05.988Z",
       "birthtime": "2018-06-11T02:37:35.811Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file": {
@@ -2436,9 +2436,9 @@
       "extension": "md",
       "size": 450,
       "prettySize": "450 B",
-      "modifiedTime": "2018-06-11T06:07:37.018Z",
+      "modifiedTime": "2018-06-11T07:06:07.640Z",
       "accessTime": "2018-06-11T02:37:35.812Z",
-      "changeTime": "2018-06-11T06:07:37.018Z",
+      "changeTime": "2018-06-11T07:06:07.640Z",
       "birthTime": "2018-06-11T02:37:35.812Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events",
@@ -2454,12 +2454,12 @@
       "rdev": 0,
       "ino": 562949954321602,
       "atimeMs": 1528684655812.472,
-      "mtimeMs": 1528697257018.0889,
-      "ctimeMs": 1528697257018.0889,
+      "mtimeMs": 1528700767640.2131,
+      "ctimeMs": 1528700767640.2131,
       "birthtimeMs": 1528684655812.472,
       "atime": "2018-06-11T02:37:35.812Z",
-      "mtime": "2018-06-11T06:07:37.018Z",
-      "ctime": "2018-06-11T06:07:37.018Z",
+      "mtime": "2018-06-11T07:06:07.640Z",
+      "ctime": "2018-06-11T07:06:07.640Z",
       "birthtime": "2018-06-11T02:37:35.812Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file": {
@@ -2481,9 +2481,9 @@
       "extension": "md",
       "size": 306,
       "prettySize": "306 B",
-      "modifiedTime": "2018-06-11T06:07:49.178Z",
+      "modifiedTime": "2018-06-11T07:06:09.386Z",
       "accessTime": "2018-06-11T02:37:35.975Z",
-      "changeTime": "2018-06-11T06:07:49.178Z",
+      "changeTime": "2018-06-11T07:06:09.386Z",
       "birthTime": "2018-06-11T02:37:35.975Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events",
@@ -2499,12 +2499,12 @@
       "rdev": 0,
       "ino": 562949954321603,
       "atimeMs": 1528684655975.3208,
-      "mtimeMs": 1528697269177.7217,
-      "ctimeMs": 1528697269177.7217,
+      "mtimeMs": 1528700769385.9905,
+      "ctimeMs": 1528700769385.9905,
       "birthtimeMs": 1528684655975.3208,
       "atime": "2018-06-11T02:37:35.975Z",
-      "mtime": "2018-06-11T06:07:49.178Z",
-      "ctime": "2018-06-11T06:07:49.178Z",
+      "mtime": "2018-06-11T07:06:09.386Z",
+      "ctime": "2018-06-11T07:06:09.386Z",
       "birthtime": "2018-06-11T02:37:35.975Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/layout.png absPath of file": {
@@ -2978,7 +2978,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b40a4dc1cada3f06cf29a9f7cf34de3e",
+        "contentDigest": "a5fab4e79329a1c59321269f64507a54",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2999,7 +2999,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2b608e2edd94d7017fed1b41a3f6f1b9",
+        "contentDigest": "83baaf41d16de5eafa5e573870cd2f63",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3020,7 +3020,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6a9aa819f56f69563cb6c00d852e7e31",
+        "contentDigest": "dcbc80d2ffbb961ecf52a9cee1e9bceb",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3041,7 +3041,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1b1b7350af804b034b4a28ebe83cac27",
+        "contentDigest": "163661b1cab9ccfee34f6061c97cd646",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3062,7 +3062,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "718a7b7e21e03ff1c05cab23ddad7598",
+        "contentDigest": "ebadc2f785f4089cc95af0d9682446c8",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3083,7 +3083,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8dd2912f41995b70fe1df13087e3736e",
+        "contentDigest": "37be906e3533a9c8a7e081c5c266c055",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3104,7 +3104,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2473e1900744e6853e1bff1e79ad5044",
+        "contentDigest": "de5ea46cf36cf74565ed7ac1a1efc9ed",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3125,7 +3125,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4604fd15f2db037eb970a34c49c3304d",
+        "contentDigest": "a8e2f4b7ccee37a81cc5789313443e90",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3146,7 +3146,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3e0f7ad6e9290e56fcaf705d65af8d5d",
+        "contentDigest": "9e3cff052a357334789dcf24ee266896",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
