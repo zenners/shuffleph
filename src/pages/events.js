@@ -49,6 +49,7 @@ const EventItem = ({index, date, title, by, from, to}) => {
   )
 }
 
+// const bigger = index == 0 ? 'h1' : '';
 
 const AboutPage = () => (
   <div>
@@ -74,4 +75,70 @@ const AboutPage = () => (
   </div>
 )
 
-export default AboutPage
+
+// const bigger = index == 0 ? 'h1' : ''
+export default ({ data }) => {
+  console.log("data",data);
+  const bigger = data.allMarkdownRemark.edges[0];
+  console.log("data0", bigger);
+
+  return (
+    <div>
+     <Header />
+      <div className="flex-wrap row-eq-height">
+        <div className="col-md-6 no-pad">
+          <div className="d-flex flex-column">
+          {menu.map((item) => (
+            <MenuItem title={item.title} styles={item.styles} path={item.path} isActive={item.isActive} />
+          ))}
+          </div>
+
+        </div>
+        <div className="col-md-6 mtop">
+          <div className="event-container">
+            <div>
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <div key={node.id}>
+                <div className="event-item tx-ma">
+                  <h2 className={`${bigger} bold all-caps`}>Marchhhh</h2>
+                  <p className="tx-bl"></p>
+                  <h3 className={`${bigger} bold italic`}>{node.frontmatter.title}</h3>
+                  <h3 className={`${bigger} small italic`}> with {node.frontmatter.by}</h3>
+                  <h4 className="">{node.frontmatter.start} to {node.frontmatter.end}</h4>
+                  <p className="tx-bl">{node.excerpt}</p><br />
+                  <h4 className="tx-bl"> LINK TO EVENT </h4>
+                  <hr className="bg-og" />
+                </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const query = graphql`
+  query IndexQuery {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC } limit: 4,
+    filter: {fileAbsolutePath: {regex: "/(events)/.*\\.md$/"}}) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            by
+            start
+            end
+            adates{
+               bdates{
+                 date
+               }
+             }
+          }
+           excerpt(pruneLength: 400)
+        }
+      }
+    }
+  }`;

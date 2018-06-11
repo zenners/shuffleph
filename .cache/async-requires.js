@@ -9,27 +9,21 @@ exports.components = {
   "component---src-pages-events-js": require("gatsby-module-loader?name=component---src-pages-events-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\events.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\index.js"),
   "component---src-pages-makerspace-js": require("gatsby-module-loader?name=component---src-pages-makerspace-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\makerspace.js"),
+  "component---src-pages-my-files-js": require("gatsby-module-loader?name=component---src-pages-my-files-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\my-files.js"),
   "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\page-2.js")
 }
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\layout-index.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\dev-404-page.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\layout-index.json"),
   "404.json": require("gatsby-module-loader?name=path---404!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\404.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\layout-index.json"),
   "about.json": require("gatsby-module-loader?name=path---about!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\about.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\layout-index.json"),
   "coworking.json": require("gatsby-module-loader?name=path---coworking!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\coworking.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\layout-index.json"),
   "events.json": require("gatsby-module-loader?name=path---events!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\events.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\index.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\layout-index.json"),
   "makerspace.json": require("gatsby-module-loader?name=path---makerspace!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\makerspace.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\layout-index.json"),
+  "my-files.json": require("gatsby-module-loader?name=path---my-files!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\my-files.json"),
   "page-2.json": require("gatsby-module-loader?name=path---page-2!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\page-2.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\layout-index.json"),
   "404-html.json": require("gatsby-module-loader?name=path---404-html!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\404-html.json")
 }
 

@@ -49,6 +49,13 @@
         "path": "/makerspace/"
     },
     {
+        "componentChunkName": "component---src-pages-my-files-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "my-files.json",
+        "path": "/my-files/"
+    },
+    {
         "componentChunkName": "component---src-pages-page-2-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
