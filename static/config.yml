@@ -28,7 +28,8 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "By", name: "by", widget: "string"}
-      - {label: "Date", name: "date", widget: "date", default: "", format: "LL"}
+      - {label: Dates, name: dates, widget: object, fields: [{label: Dates, name: dates, widget: list, fields: [{label: Date, name: date, widget: "date", default: "", format: "LL"}]}]}
+      # - {label: "Date", name: "date", widget: "date", default: "", format: "LL", multidate: true}
       - {label: "Start time",  name: "start",  widget: "datetime", default: "", format: "hh:mma"}
       - {label: "End time",  name: "end",  widget: "datetime", default: "", format: "hh:mma"}
       - {label: "Description", name: "body", widget: "markdown"}
