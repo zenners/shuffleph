@@ -4,9 +4,10 @@ title: Sculpt and Motion
 by: Karenn Fajardo
 adates:
   bdates:
-    - date: 'June 2, 2018'
-    - date: 'June 16, 2018'
-    - date: 'June 22, 2018'
+    - date: 'April 7, 2018'
+    - date: 'April 14, 2018'
+    - date: 'April 21, 2018'
+    - date: 'April 28, 2018'
 start: '09:00am'
 end: '10:00am'
 ---
