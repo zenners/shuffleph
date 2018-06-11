@@ -2327,51 +2327,6 @@
       "ctime": "2018-06-11T02:37:35.769Z",
       "birthtime": "2018-06-11T02:37:35.768Z"
     },
-    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file": {
-      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file",
-      "children": [
-        "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d22026d29a9aae134a77b8f6b7459e0e",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src\\pages\\events\\sculpt-and-motion.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md",
-      "relativePath": "pages/events/sculpt-and-motion.md",
-      "extension": "md",
-      "size": 343,
-      "prettySize": "343 B",
-      "modifiedTime": "2018-06-11T07:06:02.597Z",
-      "accessTime": "2018-06-11T02:37:35.810Z",
-      "changeTime": "2018-06-11T07:06:02.597Z",
-      "birthTime": "2018-06-11T02:37:35.810Z",
-      "root": "C:/",
-      "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events",
-      "base": "sculpt-and-motion.md",
-      "ext": ".md",
-      "name": "sculpt-and-motion",
-      "relativeDirectory": "pages\\events",
-      "dev": 585160515,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 844424931032256,
-      "atimeMs": 1528684655810.471,
-      "mtimeMs": 1528700762597.3071,
-      "ctimeMs": 1528700762597.3071,
-      "birthtimeMs": 1528684655810.471,
-      "atime": "2018-06-11T02:37:35.810Z",
-      "mtime": "2018-06-11T07:06:02.597Z",
-      "ctime": "2018-06-11T07:06:02.597Z",
-      "birthtime": "2018-06-11T02:37:35.810Z"
-    },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file": {
       "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file",
       "children": [
@@ -2379,7 +2334,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "09efcb8612b7ec9506023efd17646250",
+        "contentDigest": "5757986258c873f8f5e13a49b9affb0a",
         "mediaType": "text/markdown",
         "type": "File",
         "description": "File \"src\\pages\\events\\the-basics-flower-arrangement-w-blooms.md\"",
@@ -2391,9 +2346,9 @@
       "extension": "md",
       "size": 349,
       "prettySize": "349 B",
-      "modifiedTime": "2018-06-11T07:06:05.988Z",
-      "accessTime": "2018-06-11T02:37:35.811Z",
-      "changeTime": "2018-06-11T07:06:05.988Z",
+      "modifiedTime": "2018-06-11T07:42:53.026Z",
+      "accessTime": "2018-06-11T07:42:53.026Z",
+      "changeTime": "2018-06-11T07:42:53.026Z",
       "birthTime": "2018-06-11T02:37:35.811Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events",
@@ -2407,14 +2362,14 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 844424931032257,
-      "atimeMs": 1528684655811.4714,
-      "mtimeMs": 1528700765988.0603,
-      "ctimeMs": 1528700765988.0603,
+      "ino": 844424931028028,
+      "atimeMs": 1528702973025.5933,
+      "mtimeMs": 1528702973025.5933,
+      "ctimeMs": 1528702973025.5933,
       "birthtimeMs": 1528684655811.4714,
-      "atime": "2018-06-11T02:37:35.811Z",
-      "mtime": "2018-06-11T07:06:05.988Z",
-      "ctime": "2018-06-11T07:06:05.988Z",
+      "atime": "2018-06-11T07:42:53.026Z",
+      "mtime": "2018-06-11T07:42:53.026Z",
+      "ctime": "2018-06-11T07:42:53.026Z",
       "birthtime": "2018-06-11T02:37:35.811Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file": {
@@ -2424,7 +2379,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bd21c7a5db1b23dd19d6a00069728508",
+        "contentDigest": "b891bcbb764e7df23fab1471775f616f",
         "mediaType": "text/markdown",
         "type": "File",
         "description": "File \"src\\pages\\events\\the-basics-leather-crafting.md\"",
@@ -2434,11 +2389,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md",
       "relativePath": "pages/events/the-basics-leather-crafting.md",
       "extension": "md",
-      "size": 450,
-      "prettySize": "450 B",
-      "modifiedTime": "2018-06-11T07:06:07.640Z",
-      "accessTime": "2018-06-11T02:37:35.812Z",
-      "changeTime": "2018-06-11T07:06:07.640Z",
+      "size": 452,
+      "prettySize": "452 B",
+      "modifiedTime": "2018-06-11T07:42:53.028Z",
+      "accessTime": "2018-06-11T07:42:53.028Z",
+      "changeTime": "2018-06-11T07:42:53.028Z",
       "birthTime": "2018-06-11T02:37:35.812Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events",
@@ -2452,14 +2407,14 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 562949954321602,
-      "atimeMs": 1528684655812.472,
-      "mtimeMs": 1528700767640.2131,
-      "ctimeMs": 1528700767640.2131,
+      "ino": 844424931028029,
+      "atimeMs": 1528702973027.5952,
+      "mtimeMs": 1528702973027.5952,
+      "ctimeMs": 1528702973027.5952,
       "birthtimeMs": 1528684655812.472,
-      "atime": "2018-06-11T02:37:35.812Z",
-      "mtime": "2018-06-11T07:06:07.640Z",
-      "ctime": "2018-06-11T07:06:07.640Z",
+      "atime": "2018-06-11T07:42:53.028Z",
+      "mtime": "2018-06-11T07:42:53.028Z",
+      "ctime": "2018-06-11T07:42:53.028Z",
       "birthtime": "2018-06-11T02:37:35.812Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file": {
@@ -2469,7 +2424,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e233c29b7d640c32b00c7782c463036e",
+        "contentDigest": "6fe9bc21fbd26c18a3714c8fb970b465",
         "mediaType": "text/markdown",
         "type": "File",
         "description": "File \"src\\pages\\events\\tie-dye-101.md\"",
@@ -2479,11 +2434,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md",
       "relativePath": "pages/events/tie-dye-101.md",
       "extension": "md",
-      "size": 306,
-      "prettySize": "306 B",
-      "modifiedTime": "2018-06-11T07:06:09.386Z",
-      "accessTime": "2018-06-11T02:37:35.975Z",
-      "changeTime": "2018-06-11T07:06:09.386Z",
+      "size": 279,
+      "prettySize": "279 B",
+      "modifiedTime": "2018-06-11T07:42:53.031Z",
+      "accessTime": "2018-06-11T07:42:53.031Z",
+      "changeTime": "2018-06-11T07:42:53.031Z",
       "birthTime": "2018-06-11T02:37:35.975Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events",
@@ -2497,14 +2452,14 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 562949954321603,
-      "atimeMs": 1528684655975.3208,
-      "mtimeMs": 1528700769385.9905,
-      "ctimeMs": 1528700769385.9905,
+      "ino": 844424931028030,
+      "atimeMs": 1528702973030.5986,
+      "mtimeMs": 1528702973030.5986,
+      "ctimeMs": 1528702973030.5986,
       "birthtimeMs": 1528684655975.3208,
-      "atime": "2018-06-11T02:37:35.975Z",
-      "mtime": "2018-06-11T07:06:09.386Z",
-      "ctime": "2018-06-11T07:06:09.386Z",
+      "atime": "2018-06-11T07:42:53.031Z",
+      "mtime": "2018-06-11T07:42:53.031Z",
+      "ctime": "2018-06-11T07:42:53.031Z",
       "birthtime": "2018-06-11T02:37:35.975Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/layout.png absPath of file": {
@@ -2833,135 +2788,6 @@
       "ctime": "2018-06-11T02:37:35.757Z",
       "birthtime": "2018-06-11T02:37:35.756Z"
     },
-    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file >>> MarkdownRemark": {
-      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file",
-      "internal": {
-        "content": "---\r\ntemplateKey: events\r\ntitle: Sculpt and Motion\r\nby: Karenn Fajardo\r\nadates:\r\n  bdates:\r\n    - date: 'June 2, 2018'\r\n    - date: 'June 16, 2018'\r\n    - date: 'June 22, 2018'\r\nstart: '09:00am'\r\nend: '10:00am'\r\n---\r\nA 34 mins high intensity interval training. Targetting to sculpt key parts of your body with high intensity workout routine.\r\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "8aac46979099c3eb48d04f7ff59d5653",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Sculpt and Motion",
-        "templateKey": "events",
-        "by": "Karenn Fajardo",
-        "adates": {
-          "bdates": [
-            {
-              "date": "June 2, 2018"
-            },
-            {
-              "date": "June 16, 2018"
-            },
-            {
-              "date": "June 22, 2018"
-            }
-          ]
-        },
-        "start": "09:00am",
-        "end": "10:00am",
-        "_PARENT": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file",
-        "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "A 34 mins high intensity interval training. Targetting to sculpt key parts of your body with high intensity workout routine.\r\n",
-      "fileAbsolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md"
-    },
-    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file >>> MarkdownRemark": {
-      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file",
-      "internal": {
-        "content": "---\r\ntemplateKey: events\r\ntitle: 'The Basics: Flower Arrangement w/ Blooms'\r\nby: Agi\r\nadates:\r\n  bdates:\r\n    - date: 'July 6, 2018'\r\nstart: '01:00pm'\r\nend: '04:00pm'\r\n---\r\nAgi first began flower arranging as a hobby by growing her interest through tinkering with loose flowers in the market and experimenting until she came up with her own style.\r\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "99b52908dd083b2d88725d5cf0938299",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "The Basics: Flower Arrangement w/ Blooms",
-        "templateKey": "events",
-        "by": "Agi",
-        "adates": {
-          "bdates": [
-            {
-              "date": "July 6, 2018"
-            }
-          ]
-        },
-        "start": "01:00pm",
-        "end": "04:00pm",
-        "_PARENT": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file",
-        "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "Agi first began flower arranging as a hobby by growing her interest through tinkering with loose flowers in the market and experimenting until she came up with her own style.\r\n",
-      "fileAbsolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md"
-    },
-    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file >>> MarkdownRemark": {
-      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file",
-      "internal": {
-        "content": "---\r\ntemplateKey: events\r\ntitle: 'The Basics: Leather Crafting'\r\nby: The Paper Plane Project\r\nadates:\r\n  bdates:\r\n    - date: 'May 27, 2018'\r\nstart: '09:00am'\r\nend: '12:00pm'\r\n---\r\nLearn this Marikina specialized craft with ThePaperPlaneProjectMNL as we pattern, cut and stitch coin holders, key holders and cord organizers. Pick up the different techniques on how people create different products and the basic do's and don'ts of leather smithing!\r\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "a4ffc73e9ed8420a430c022f4954e9e2",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "The Basics: Leather Crafting",
-        "templateKey": "events",
-        "by": "The Paper Plane Project",
-        "adates": {
-          "bdates": [
-            {
-              "date": "May 27, 2018"
-            }
-          ]
-        },
-        "start": "09:00am",
-        "end": "12:00pm",
-        "_PARENT": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file",
-        "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "Learn this Marikina specialized craft with ThePaperPlaneProjectMNL as we pattern, cut and stitch coin holders, key holders and cord organizers. Pick up the different techniques on how people create different products and the basic do's and don'ts of leather smithing!\r\n",
-      "fileAbsolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md"
-    },
-    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file >>> MarkdownRemark": {
-      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file",
-      "internal": {
-        "content": "---\r\ntemplateKey: events\r\ntitle: Tie Dye 101\r\nby: Magaion Shirts\r\nadates:\r\n  bdates:\r\n    - date: 'June 7, 2018'\r\n    - date: 'June 8, 2018'\r\nstart: '01:00pm'\r\nend: '03:00pm'\r\n---\r\nGet that legitimately summer aesthetic down to a tee (pun quite intended 😂) through this awesome 90s flashback workshop!\r\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "abe8f21f2992a802f824d95cce18235b",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Tie Dye 101",
-        "templateKey": "events",
-        "by": "Magaion Shirts",
-        "adates": {
-          "bdates": [
-            {
-              "date": "June 7, 2018"
-            },
-            {
-              "date": "June 8, 2018"
-            }
-          ]
-        },
-        "start": "01:00pm",
-        "end": "03:00pm",
-        "_PARENT": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file",
-        "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "Get that legitimately summer aesthetic down to a tee (pun quite intended 😂) through this awesome 90s flashback workshop!\r\n",
-      "fileAbsolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md"
-    },
     "SitePage /404/": {
       "layout": "index",
       "jsonName": "404.json",
@@ -3150,6 +2976,180 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file",
+      "internal": {
+        "content": "---\r\ntemplateKey: events\r\ntitle: 'The Basics: Flower Arrangement w/ Blooms'\r\nby: Agi\r\nadates:\r\n  bdates:\r\n    - date: 'May 26, 2018'\r\nstart: '01:00pm'\r\nend: '04:00pm'\r\n---\r\nAgi first began flower arranging as a hobby by growing her interest through tinkering with loose flowers in the market and experimenting until she came up with her own style.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "892376f854f35dabb49d3a380770c909",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Basics: Flower Arrangement w/ Blooms",
+        "templateKey": "events",
+        "by": "Agi",
+        "adates": {
+          "bdates": [
+            {
+              "date": "May 26, 2018"
+            }
+          ]
+        },
+        "start": "01:00pm",
+        "end": "04:00pm",
+        "_PARENT": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file",
+        "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Agi first began flower arranging as a hobby by growing her interest through tinkering with loose flowers in the market and experimenting until she came up with her own style.\r\n",
+      "fileAbsolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md"
+    },
+    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file",
+      "internal": {
+        "content": "---\r\ntemplateKey: events\r\ntitle: 'The Basics: Leather Crafting'\r\nby: The Paper Plane Project\r\nadates:\r\n  bdates:\r\n    - date: 'March 17, 2018'\r\nstart: '09:00am'\r\nend: '12:00pm'\r\n---\r\nLearn this Marikina specialized craft with ThePaperPlaneProjectMNL as we pattern, cut and stitch coin holders, key holders and cord organizers. Pick up the different techniques on how people create different products and the basic do's and don'ts of leather smithing!\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "da557696aa5c6b4287bac677fa998daf",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Basics: Leather Crafting",
+        "templateKey": "events",
+        "by": "The Paper Plane Project",
+        "adates": {
+          "bdates": [
+            {
+              "date": "March 17, 2018"
+            }
+          ]
+        },
+        "start": "09:00am",
+        "end": "12:00pm",
+        "_PARENT": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file",
+        "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Learn this Marikina specialized craft with ThePaperPlaneProjectMNL as we pattern, cut and stitch coin holders, key holders and cord organizers. Pick up the different techniques on how people create different products and the basic do's and don'ts of leather smithing!\r\n",
+      "fileAbsolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-leather-crafting.md"
+    },
+    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file",
+      "internal": {
+        "content": "---\r\ntemplateKey: events\r\ntitle: Tie Dye 101\r\nby: Magaion Shirts\r\nadates:\r\n  bdates:\r\n    - date: 'April 7, 2018'\r\nstart: '01:00pm'\r\nend: '03:00pm'\r\n---\r\nGet that legitimately summer aesthetic down to a tee (pun quite intended 😂) through this awesome 90s flashback workshop!\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "86aae491a720c0b6ef81d3e806992eed",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Tie Dye 101",
+        "templateKey": "events",
+        "by": "Magaion Shirts",
+        "adates": {
+          "bdates": [
+            {
+              "date": "April 7, 2018"
+            }
+          ]
+        },
+        "start": "01:00pm",
+        "end": "03:00pm",
+        "_PARENT": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file",
+        "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Get that legitimately summer aesthetic down to a tee (pun quite intended 😂) through this awesome 90s flashback workshop!\r\n",
+      "fileAbsolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md"
+    },
+    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file": {
+      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file",
+      "children": [
+        "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d5710b250908e43c3070009571dec0e6",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src\\pages\\events\\sculpt-and-motion.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md",
+      "relativePath": "pages/events/sculpt-and-motion.md",
+      "extension": "md",
+      "size": 376,
+      "prettySize": "376 B",
+      "modifiedTime": "2018-06-11T07:42:53.023Z",
+      "accessTime": "2018-06-11T07:42:53.023Z",
+      "changeTime": "2018-06-11T07:42:53.023Z",
+      "birthTime": "2018-06-11T02:37:35.810Z",
+      "root": "C:/",
+      "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events",
+      "base": "sculpt-and-motion.md",
+      "ext": ".md",
+      "name": "sculpt-and-motion",
+      "relativeDirectory": "pages\\events",
+      "dev": 585160515,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931028027,
+      "atimeMs": 1528702973022.59,
+      "mtimeMs": 1528702973022.59,
+      "ctimeMs": 1528702973022.59,
+      "birthtimeMs": 1528684655810.471,
+      "atime": "2018-06-11T07:42:53.023Z",
+      "mtime": "2018-06-11T07:42:53.023Z",
+      "ctime": "2018-06-11T07:42:53.023Z",
+      "birthtime": "2018-06-11T02:37:35.810Z"
+    },
+    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file",
+      "internal": {
+        "content": "---\r\ntemplateKey: events\r\ntitle: Sculpt and Motion\r\nby: Karenn Fajardo\r\nadates:\r\n  bdates:\r\n    - date: 'April 7, 2018'\r\n    - date: 'April 14, 2018'\r\n    - date: 'April 21, 2018'\r\n    - date: 'April 28, 2018'\r\nstart: '09:00am'\r\nend: '10:00am'\r\n---\r\nA 34 mins high intensity interval training. Targetting to sculpt key parts of your body with high intensity workout routine.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "915d217aab5212ceb5d6a323d11987a1",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Sculpt and Motion",
+        "templateKey": "events",
+        "by": "Karenn Fajardo",
+        "adates": {
+          "bdates": [
+            {
+              "date": "April 7, 2018"
+            },
+            {
+              "date": "April 14, 2018"
+            },
+            {
+              "date": "April 21, 2018"
+            },
+            {
+              "date": "April 28, 2018"
+            }
+          ]
+        },
+        "start": "09:00am",
+        "end": "10:00am",
+        "_PARENT": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file",
+        "parent": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "A 34 mins high intensity interval training. Targetting to sculpt key parts of your body with high intensity workout routine.\r\n",
+      "fileAbsolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md"
     }
   },
   "status": {
