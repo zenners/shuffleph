@@ -1,6 +1,6 @@
 ---
 templateKey: events
-title: Tie Dye 101
+title: Tie Dye 101sa
 by: Magaion Shirts
 adates:
   bdates:
