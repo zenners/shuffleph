@@ -2,7 +2,7 @@
 templateKey: events
 title: 'The Basics: Leather Crafting'
 by: The Paper Plane Project
-date: '2018-03-14T00:00:00+08:00'
+date: 'March 14, 2018'
 adates:
   bdates:
     - date: 'March 17, 2018'
