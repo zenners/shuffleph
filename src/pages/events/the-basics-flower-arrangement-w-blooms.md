@@ -2,7 +2,7 @@
 templateKey: events
 title: 'The Basics: Flower Arrangement w/ Blooms'
 by: Agi
-date: '2018-05-24T00:00:00+08:00'
+date: 'May 24, 2018'
 adates:
   bdates:
     - date: 'May 26, 2018'
