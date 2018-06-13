@@ -61,8 +61,8 @@ const AboutPage = () => (
         </div>
 
       </div>
-      <div className="col-md-6 content-body abt-content">
-        <div className="bg-ma text-center">
+      <div className="col-md-6 content-body abt-content col-vh-lg">
+        <div className="bg-ma text-center col-vh-abt">
           <img className="pt-4" style={{maxHeight: '263px'}} src={Shuffle}/>
         </div>
         <AboutContent

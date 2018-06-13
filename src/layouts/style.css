@@ -34,7 +34,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 h2 {margin-bottom: 0}
-.footer {z-index: 10;}
+.footer {position: absolute; bottom: 0; width: 100%;line-height: 60px; background-color: #000;}
+
 .no-pad {padding: 0 !important;}
 .col-md-6 {padding-left: 0; padding-right: 0;}
 .bg-og { background-color: #F2B31D;}
@@ -74,9 +75,15 @@ h2 {margin-bottom: 0}
 
 .flex-wrap{ display: flex; flex-wrap: wrap;}
 .navbar-collapse {height: 100vh;}
-.icon.social {color: #913156;}
+.icon-social {color: #913156; font-size: 2rem;}
+.footer-content { line-height: 15px; font-weight: bold; font-size: 15px;}
 
 
+
+@media only screen and (min-width : 100px) {
+  .icon-social {color: #913156; font-size: 1rem;}
+  .footer-content { line-height: 15px; font-weight: bold; font-size: 12px;}
+}
 
 /* Custom, iPhone Retina */
 	@media only screen and (min-width : 320px) {
@@ -86,11 +93,15 @@ h2 {margin-bottom: 0}
     .mtop {margin-top: 3.5rem;}
     .abt-content { height: auto; overflow: auto;}
     .abt-body {padding-left: 4em; padding-right: 2em;}
-    .event-container {height: auto; overflow: auto; padding: 3em;}
+    .event-container {height: auto; overflow: auto; padding: 2.5em;}
     .form-container {padding: 2em 3em 2em 5em; height: auto; overflow:auto; font-size: 12px;}
     .footer-mrgn {margin-top:1rem; margin-left: 1rem; font-size: 12px;}
     .title-head { font-size: 1.4em;}
-    .icon.social {margin-top: -0.3em}
+    .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
+    .footer-content { line-height: 10px; font-weight: bold; font-size: 12px;}
+    .footer {position: relative; bottom: 0; width: 100%; padding: 10px; line-height: 25px; font-size: 14px; background-color: #fff; color:black;}
+    .text-mobile-align {text-align: center}
+    .form-check { position: relative;display: block;  padding-left: 0rem;}
 	}
 
   /* Extra Small Devices, Phones */
@@ -102,6 +113,7 @@ h2 {margin-bottom: 0}
     .abt-content { height: auto; overflow: auto;}
     .event-container {height: auto; overflow: auto; padding: 3em;}
     .form-container {padding: 2em 3em 2em 4em; height: auto; overflow:auto;}
+    .footer-content { line-height: 10px; font-weight: bold; font-size: 13px;}
     .footer-mrgn {margin-top:1rem; font-size: 13px;}
     .title-head { font-size: 2.2em;}
     .icon.social {margin-top: -0.3em}
@@ -116,6 +128,7 @@ h2 {margin-bottom: 0}
     .abt-body {padding-left: 5em; padding-right: 3em;}
     .event-container {height: auto; overflow: auto; padding: 3em;}
     .form-container {padding: 3em 4em 0em 4em; height: auto; overflow:auto; font-size: 13px;}
+    .footer-content { line-height: 10px; font-weight: bold; font-size: 15px;}
     .title-head { font-size: 1.6em;}
     .icon.social {margin-top: -0.3em}
   }
@@ -135,6 +148,8 @@ h2 {margin-bottom: 0}
     .xsm-menu-title {font-size: 1.7em;}
     .icon {margin-top: 0.3em}
     .div-height{ height: 725px;}
+    .footer-content { line-height: 10px; font-weight: bold; font-size: 15px;}
+    .text-mobile-align {text-align: left}
 	}
 
 	/* Medium Devices, Desktops */
@@ -143,14 +158,20 @@ h2 {margin-bottom: 0}
     .flex-wrap {display: flex !important;}
     .footer-mrgn {margin-top:1.5rem; font-size: 16px;}
     .mtop {margin-top: 0rem;}
-    .md-menu-title {font-size: 4.6rem; padding: 2rem; margin-bottom: 190px; margin-top: 190px;}
+    .md-menu-title {font-size: 3.8rem; padding: 2rem; margin-bottom: 190px; margin-top: 190px;}
     .abt-content { height: 1270px; overflow: auto;}
     .event-container {height: 1270px; overflow: auto; padding: 3em;}
     .form-container {padding: 2em 3em 2em 4em; height: 1270px; overflow:auto;}
     .xsm-menu-title {font-size: 2.2em;}
     .icon {margin-top: 0.7em}
     .div-height{ height: 999px;}
+    .col-vh-sm { height: none; }
+    .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
+    .footer-content { line-height: 15px; font-weight: bold; font-size: 15px;}
+    .footer {bottom: 0; width: 100%;line-height: 60px; background-color: #fff; color:black}
+    .text-mobile-align {text-align: left}
 	}
+
 
 	/* Large Devices, Wide Screens */
 	@media only screen and (min-width : 1025px) {
@@ -158,14 +179,31 @@ h2 {margin-bottom: 0}
     label.col-sm-2 { padding-right: 0px; font-size: 14px;}
     .navbar {display: none !important;}
     .flex-wrap {display: flex !important;}
-    .md-menu-title {font-size: 4.3rem; padding: .88em .3em; margin-bottom: 10px; margin-top: 5px;}
+    .md-menu-title {font-size: 3.3rem; padding: .88em .3em; margin-bottom: 10px; margin-top: 20px;}
     .mtop {margin-top: 0rem;}
-    .abt-content { height: 558px; overflow: auto;}
-    .event-container {height: 558px; overflow: auto; padding: 3em;}
-    .form-container {padding: 2em 3em 2em 6em; height: 558px; overflow:auto; font-size: 0.8rem;}
+    .abt-content { height: 100vh; overflow: auto;}
+    .event-container {height: 100vh; overflow: auto; padding: 3em;}
+    .form-container {padding: 2em 3em 2em 6em; height: 100vh; overflow:auto; font-size: 0.8rem;}
     .navbar {display: none !important;}
     .footer-mrgn {margin-top:3.5rem;}
     .icon {margin-top: 0.6em}
-    .icon.social {margin-top: -0.7em}
+    .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
+    .footer-content { line-height: 15px; font-weight: bold; font-size: 13px;}
     .div-height{ height: auto;}
+    .footer {position: absolute; bottom: 0; width: 100%;line-height: 50px; background-color: #fff; color:black}
+    .col-vh-md { height: 47vh; }
+    .col-vh-abt { height: 47vh; }
+    .col-vh-sm { height: 14vh; }
+    .col-vh-lg { height: 90vh; }
+    .text-mobile-align {text-align: left}
 	}
+
+
+  @media only screen and (min-width : 1300px) {
+    .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
+    .footer-content { line-height: 15px; font-weight: bold; font-size: 14px;}
+    .footer {position: absolute; bottom: 0; width: 100%;line-height: 50px; background-color: #fff; color:black}
+    .col-vh-md { height: 45vh; }
+    .col-vh-sm { height: 15vh; }
+    .col-vh-abt { height: 45vh; }
+  }

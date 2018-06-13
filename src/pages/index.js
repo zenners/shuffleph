@@ -38,7 +38,7 @@ const menu = [
 ]
 
 const MenuItem = ({title, styles, path}) => (
-  <div className={`col-md-6 ${styles}`}>
+  <div className={`col-md-6 col-vh-md ${styles}`}>
   <Link
       to={path}
     >
