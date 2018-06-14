@@ -96,7 +96,7 @@ h2 {margin-bottom: 0}
     .event-container {height: auto; overflow: auto; padding: 2.5em;}
     .form-container {padding: 2em 3em 2em 4em; height: auto; overflow:auto; font-size: 12px;}
     .footer-mrgn {margin-top:1rem; margin-left: 1rem; font-size: 12px;}
-    .title-head { font-size: 1.4em;}
+    .title-head { font-size: 1.4em; margin-bottom: 1rem;}
     .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
     .footer-content { line-height: 10px; font-weight: bold; font-size: 12px;}
     .footer {position: relative; bottom: 0; width: 100%; padding: 10px; line-height: 25px; font-size: 14px; background-color: #fff; color:black;}
