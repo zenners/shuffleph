@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6b83584758e84fbfc8ea835369db9602",
+        "contentDigest": "f717881e5fa476bcf77041e16fecfa89",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -734,12 +734,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-13T09:56:58.781Z",
+      "buildTime": "2018-06-14T00:02:18.695Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2d897b89a0b20c573b36219700768e49",
+        "contentDigest": "58a9ec1547801194974008bda119889a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2289,7 +2289,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7475b0ca36e8c193743b02d5d8f51916",
+        "contentDigest": "4bea7ecb2e341de9e0f4d03c9cba1128",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src\\components\\Footer\\index.js\"",
@@ -2299,11 +2299,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/components/Footer/index.js",
       "relativePath": "components/Footer/index.js",
       "extension": "js",
-      "size": 1274,
+      "size": 1275,
       "prettySize": "1.27 kB",
-      "modifiedTime": "2018-06-13T06:45:01.290Z",
-      "accessTime": "2018-06-11T02:37:35.768Z",
-      "changeTime": "2018-06-13T06:45:01.290Z",
+      "modifiedTime": "2018-06-14T00:54:52.351Z",
+      "accessTime": "2018-06-14T00:54:52.351Z",
+      "changeTime": "2018-06-14T00:54:52.351Z",
       "birthTime": "2018-06-11T02:37:35.768Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/components/Footer",
@@ -2317,14 +2317,14 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 562949954321579,
-      "atimeMs": 1528684655768.163,
-      "mtimeMs": 1528872301290.416,
-      "ctimeMs": 1528872301290.416,
+      "ino": 1125899907739432,
+      "atimeMs": 1528937692350.951,
+      "mtimeMs": 1528937692350.951,
+      "ctimeMs": 1528937692350.951,
       "birthtimeMs": 1528684655768.163,
-      "atime": "2018-06-11T02:37:35.768Z",
-      "mtime": "2018-06-13T06:45:01.290Z",
-      "ctime": "2018-06-13T06:45:01.290Z",
+      "atime": "2018-06-14T00:54:52.351Z",
+      "mtime": "2018-06-14T00:54:52.351Z",
+      "ctime": "2018-06-14T00:54:52.351Z",
       "birthtime": "2018-06-11T02:37:35.768Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/the-basics-flower-arrangement-w-blooms.md absPath of file": {
@@ -2982,7 +2982,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b8d04a3642bdb0761127270903b7bfd4",
+        "contentDigest": "74cf91beddb2f2d1473803eab117be4a",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3003,7 +3003,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dc8ab4719f6e4f3a4ecb79ecc16d2154",
+        "contentDigest": "c25d4f5620b217d0501cfc013ed08891",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3024,7 +3024,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c54d1b678558fa135a0bd074e0623be1",
+        "contentDigest": "1ee1eab79a5c25d4787baec5e4a7ba46",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3045,7 +3045,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fd253938ba54b9cba5d27eff257a989d",
+        "contentDigest": "53d66d823644f572c2d59c3f7623b22c",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3066,7 +3066,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6b1a4b592479a73dde7db29311ee84a0",
+        "contentDigest": "b99b7ce15bca0724f0a842371dc0a79d",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3087,7 +3087,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e76d77d1a82a9f76d283ca282c114c4c",
+        "contentDigest": "95d0cd97eda0ca27f0b17a333cab9198",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3108,7 +3108,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "afebedd888b8f948ce7d89cb3d28849f",
+        "contentDigest": "40e4a3910100bfa226d855842d306aaf",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3129,7 +3129,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e133b3e54924973032f8eac0edc9b804",
+        "contentDigest": "b1383b0a22adef9b8f12db84d283c8c8",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3150,7 +3150,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b7b733a0afdac1309fa1b141e5f0c480",
+        "contentDigest": "0a6a8b9dea72bf884cd3c80ec386159b",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
