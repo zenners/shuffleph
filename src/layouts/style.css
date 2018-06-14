@@ -86,7 +86,7 @@ h2 {margin-bottom: 0}
 }
 
 /* Custom, iPhone Retina */
-	@media only screen and (min-width : 320px) {
+   @media only screen and (min-width : 320px) {
     .flex-wrap {display: flex !important;}
     .md-menu-title {font-size: 2.2em; letter-spacing: 10px; padding: 2rem; font-weight: bold;}
     .md-menu-title.sm {font-size: 1.2em;}
@@ -94,7 +94,7 @@ h2 {margin-bottom: 0}
     .abt-content { height: auto; overflow: auto;}
     .abt-body {padding-left: 4em; padding-right: 2em;}
     .event-container {height: auto; overflow: auto; padding: 2.5em;}
-    .form-container {padding: 2em 3em 2em 5em; height: auto; overflow:auto; font-size: 12px;}
+    .form-container {padding: 2em 3em 2em 4em; height: auto; overflow:auto; font-size: 12px;}
     .footer-mrgn {margin-top:1rem; margin-left: 1rem; font-size: 12px;}
     .title-head { font-size: 1.4em;}
     .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
