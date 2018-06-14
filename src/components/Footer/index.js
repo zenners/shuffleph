@@ -19,13 +19,15 @@ class Footer extends Component {
                     </a>
                     / 0995 013 4763 / 02 404 2101
                     </a>
-                     <a href="https://www.facebook.com/shufflemakerspace/">
+                  </span>
+                  
+                   <a href="https://www.facebook.com/shufflemakerspace/">
                       <i className="icon-social fab fa-facebook" />
                     </a>
                     <a href="https://www.instagram.com/shufflemakerspace/">
                       <i className="icon-social fab fa-instagram"/>
                     </a>
-                  </span>
+      
                 </div>
               </div>
             </div>
