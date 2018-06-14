@@ -184,7 +184,7 @@ h2 {margin-bottom: 0}
     .mtop {margin-top: 0rem;}
     .abt-content { height: 100vh; overflow: auto;}
     .event-container {height: 100vh; overflow: auto; padding: 3em;}
-    .form-container {padding: 2em 3em 2em 6em; height: 100vh; overflow:auto; font-size: 0.8rem;}
+    .form-container {padding: 2em 3em 2em 6em; height: 90vh; overflow:auto; font-size: 0.8rem;}
     .navbar {display: none !important;}
     .footer-mrgn {margin-top:3.5rem;}
     .icon {margin-top: 0.6em}
