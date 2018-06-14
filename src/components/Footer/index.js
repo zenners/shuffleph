@@ -24,6 +24,9 @@ class Footer extends Component {
                      <a href="https://www.facebook.com/shufflemakerspace/">
                       <i className="icon-social c fab fa-facebook" />
                     </a>
+                    <a href="https://www.instagram.com/shufflemakerspace/">
+                      <i className="icon-social a fab fa-instagram"/>
+                    </a>
                   </span>
                 </div>
               </div>
