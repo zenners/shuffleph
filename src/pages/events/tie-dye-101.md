@@ -3,9 +3,8 @@ templateKey: events
 title: Tie Dye 101
 by: Magaion Shirts
 date: 'March 19, 2018'
-adates:
-  bdates:
-    - date: 'April 7, 2018'
+dates:
+  - date: 'April 7, 2018'
 start: '01:00pm'
 end: '03:00pm'
 ---
