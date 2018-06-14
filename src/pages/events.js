@@ -35,50 +35,9 @@ const menu = [
   },
 ]
 
-// const EventItem = ({index, date, title, by, from, to}) => {
-//   const bigger = index == 0 ? 'h1' : ''
-//   return (
-//     <div className="event-item tx-ma">
-//       <h2 className={`${bigger} bold all-caps`}> {date} </h2>
-//       <h3 className={`${bigger} bold italic`}> {title} </h3>
-//       <h3 className={`${bigger} small italic `}> with {by} </h3>
-//       <h4 className=""> {from} to {to} </h4>
-//       <h4 className="tx-bl"> LINK TO EVENT </h4>
-//       <hr className="bg-og" />
-//     </div>
-//   )
-// }
-
-// const bigger = index == 0 ? 'h1' : '';
-
-// const AboutPage = () => (
-//   <div>
-//    <Header />
-//     <div className="flex-wrap row-eq-height">
-//       <div className="col-md-6 no-pad">
-//         <div className="d-flex flex-column">
-//         {menu.map((item) => (
-//           <MenuItem title={item.title} styles={item.styles} path={item.path} isActive={item.isActive} />
-//         ))}
-//         </div>
-//
-//       </div>
-//       <div className="col-md-6 mtop">
-//         <div className="event-container">
-//           {data.map((event, index) => (
-//             <EventItem index={index} date={event.date} title={event.title} by={event.by}
-//                        from={event.from} to={event.to} />
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// )
-
-
 
 export default ({ data }) => {
-  console.log("data",data);
+  // console.log("data",data);
 
 
 var dates = data.allMarkdownRemark.edges.map((item)=>{
@@ -89,8 +48,8 @@ var date = Object.values(dates);
 
 
 date.map((item, index) => {
-  console.log("SECTION: ", index)
-  item.map(i => console.log(`SECTION ${index} ITEM: `, i.date ))
+  // console.log("SECTION: ", index)
+  item.map(i =>  i.date )
 })
 
   return (
@@ -110,11 +69,12 @@ date.map((item, index) => {
             {data.allMarkdownRemark.edges.map(({ node }, index) => (
               <div key={node.id}>
               <div className="event-item tx-ma">
-                <div className={`${index == 0 ? 'h4' : ''} event-item tx-ma`} style={{display:'-webkit-inline-box'}}>
-                  {date[index].map(item => <h2 className={`initialism bold all-caps mr-2`}><li className="">{item.date}</li></h2>)}
+                <div className={`${index == 0 ? 'h4' : 'd-display'} event-item tx-ma`}>
+                  {date[index].map(item => <h2 className={`initialism bold all-caps mr-2 text-left list-inline-item `}><li>{item.date}</li></h2>)}
                 </div>
-                <p className="tx-bl"></p>
+                <div>
                 <h3 className={`${index == 0 ? 'h2' : ''} bold italic`}>{node.frontmatter.title}</h3>
+                </div>
                 <h3 className={`small italic`}> with {node.frontmatter.by}</h3>
                 <h4 className="">{node.frontmatter.start} to {node.frontmatter.end}</h4>
                 <p className="tx-bl">{node.excerpt}</p><br />

@@ -102,6 +102,7 @@ h2 {margin-bottom: 0}
     .footer {position: relative; bottom: 0; width: 100%; padding: 10px; line-height: 25px; font-size: 14px; background-color: #fff; color:black;}
     .text-mobile-align {text-align: center}
     .form-check { position: relative;display: block;  padding-left: 0rem;}
+    .d-display { display: -webkit-inline-box; font-size: 12px}
 	}
 
   /* Extra Small Devices, Phones */
@@ -196,6 +197,7 @@ h2 {margin-bottom: 0}
     .col-vh-sm { height: 14vh; }
     .col-vh-lg { height: 90vh; }
     .text-mobile-align {text-align: left}
+    .d-display { display: inline-block; font-size: 14px;}
 	}
 
 
