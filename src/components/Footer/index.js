@@ -11,6 +11,9 @@ class Footer extends Component {
 
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-6">
+      <a href="https://www.instagram.com/shufflemakerspace/">
+                      <i className="icon-social fab fa-instagram"/>
+                    </a>
                   <span className="float-left" >
                     <a className="text-left footer-content">
                     187 N. Averilla Street San Juan del Monte 1500 /<a href="/">
@@ -21,9 +24,7 @@ class Footer extends Component {
                      <a href="https://www.facebook.com/shufflemakerspace/">
                       <i className="icon-social fab fa-facebook" />
                     </a>
-                    <a href="https://www.instagram.com/shufflemakerspace/">
-                      <i className="icon-social fab fa-instagram"/>
-                    </a>
+                    
                   </span>
                 </div>
               </div>
