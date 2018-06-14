@@ -76,40 +76,22 @@ const menu = [
 // )
 
 
-// const bigger = index == 0 ? 'h1' : ''
+
 export default ({ data }) => {
   console.log("data",data);
 
-var big = data.allMarkdownRemark.edges.map((item)=>{
-  return item.node }).map((item) => {
-  return item.frontmatter})
-var biggest = Object.keys(big).map(function (key, index) {
-return big[key].title})
-var Bogger= Object.values(biggest)[0];
 
-console.log("BIGGEST", biggest);
-console.log("BOGGER", Bogger);
+var dates = data.allMarkdownRemark.edges.map((item)=>{
+   return item.node.frontmatter}).map((item) => {
+   return item.dates})
+
+var date = Object.values(dates);
 
 
-
-var big = data.allMarkdownRemark.edges.map((item)=>{
-   return item.node.frontmatter
+date.map((item, index) => {
+  console.log("SECTION: ", index)
+  item.map(i => console.log(`SECTION ${index} ITEM: `, i.date ))
 })
-var bigger = big.map((item) => {
-   return item.adates}).map((item) => {
-   return item.bdates
-})
-
-var biggest = Object.values(bigger);
-
-console.log("BIGGER", bigger);
-console.log("BIGGEST", biggest);
-
-var sample = Object.keys(bigger).map(function (key) {
-    return bigger[key]
-})
-
-console.log("SAMPLE", sample);
 
   return (
     <div>
@@ -125,12 +107,14 @@ console.log("SAMPLE", sample);
         </div>
           <div className="col-md-6 mtop">
             <div className="event-container">
-            {data.allMarkdownRemark.edges.map(({ node }) => (
+            {data.allMarkdownRemark.edges.map(({ node }, index) => (
               <div key={node.id}>
               <div className="event-item tx-ma">
-                <h2 className={`initialism bold all-caps`}>{node.frontmatter.date}</h2>
+                <div className={`${index == 0 ? 'h4' : ''} event-item tx-ma`} style={{display:'-webkit-inline-box'}}>
+                  {date[index].map(item => <h2 className={`initialism bold all-caps mr-2`}><li className="">{item.date}</li></h2>)}
+                </div>
                 <p className="tx-bl"></p>
-                <h3 className={`${Bogger==node.frontmatter.title ? 'h2' : ''} bold italic`}>{node.frontmatter.title}</h3>
+                <h3 className={`${index == 0 ? 'h2' : ''} bold italic`}>{node.frontmatter.title}</h3>
                 <h3 className={`small italic`}> with {node.frontmatter.by}</h3>
                 <h4 className="">{node.frontmatter.start} to {node.frontmatter.end}</h4>
                 <p className="tx-bl">{node.excerpt}</p><br />
@@ -151,7 +135,7 @@ console.log("SAMPLE", sample);
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC } limit: 4,
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC } limit: 4,
     filter: {fileAbsolutePath: {regex: "/(events)/.*\\.md$/"}}) {
       edges {
         node {
@@ -162,11 +146,9 @@ export const query = graphql`
             by
             start
             end
-            adates{
-               bdates{
-                 date
-               }
-             }
+            dates{
+              date
+            }
           }
            excerpt(pruneLength: 400)
         }
