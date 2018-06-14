@@ -12,7 +12,7 @@ class Footer extends Component {
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-6">
 
-                  <span className="float-left" >
+                  <span className="" >
                     <a className="text-left footer-content">
                     187 N. Averilla Street San Juan del Monte 1500 /<a href="/">
                       hello@shuffle.ph{" "}
