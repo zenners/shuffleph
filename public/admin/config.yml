@@ -32,4 +32,5 @@ collections:
       - {label: Dates, name: dates, widget: list, fields:[{label: Date, name: date, widget: "date", default: "", format: "LL"}]}
       - {label: "Start time",  name: "start",  widget: "datetime", default: "", format: "hh:mma"}
       - {label: "End time",  name: "end",  widget: "datetime", default: "", format: "hh:mma"}
+      - {label: Image, name: image, widget: image}
       - {label: "Description", name: "body", widget: "markdown"}
