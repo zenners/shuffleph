@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import MenuItem from '../components/Menuitem'
+import Header from '../components/Header'
 import logo from '../Group 40-min.png'
 import '../layouts/style.css'
 import data from '../content/event'
@@ -14,7 +15,7 @@ const menu = [
     isActive: false,
   },
   {
-    title: 'MAKERSPACE',
+    title: 'MAKER SPACE',
     styles: 'bg-bl tx-gr',
     path: '/makerspace',
     isActive: false,
@@ -34,44 +35,83 @@ const menu = [
   },
 ]
 
-const EventItem = ({index, date, title, by, from, to}) => {
-  const bigger = index == 0 ? 'h1' : ''
+
+export default ({ data }) => {
+  // console.log("data",data);
+
+
+var dates = data.allMarkdownRemark.edges.map((item)=>{
+   return item.node.frontmatter}).map((item) => {
+   return item.dates})
+
+var date = Object.values(dates);
+
+
+date.map((item, index) => {
+  // console.log("SECTION: ", index)
+  item.map(i =>  i.date )
+})
+
   return (
-    <div className="event-item tx-ma">
-      <h2 className={`${bigger} bold all-caps`}> {date} </h2>
-      <h3 className={`${bigger} bold italic`}> {title} </h3>
-      <h3 className={`${bigger} small italic `}> with {by} </h3>
-      <h4 className=""> {from} to {to} </h4>
-      <h4 className="tx-bl"> LINK TO EVENT </h4>
-      <hr className="bg-og" />
-    </div>
-  )
-}
-
-
-
-
-const AboutPage = () => (
-  <div>
-    <div className="row row-eq-height">
-      <div className="col-md-6 no-pad">
-        <div className="d-flex flex-column">
-        {menu.map((item) => (
-          <MenuItem title={item.title} styles={item.styles} path={item.path} isActive={item.isActive} />
-        ))}
-        </div>
-
-      </div>
-      <div className="col-md-6 content-body">
-        <div className="event-container">
-          {data.map((event, index) => (
-            <EventItem index={index} date={event.date} title={event.title} by={event.by}
-                       from={event.from} to={event.to} />
+    <div>
+     <Header />
+      <div className="flex-wrap row-eq-height">
+        <div className="col-md-6 no-pad">
+          <div className="d-flex flex-column">
+          {menu.map((item) => (
+            <MenuItem title={item.title} styles={item.styles} path={item.path} isActive={item.isActive} />
           ))}
+          </div>
+
         </div>
+          <div className="col-md-6 mtop">
+            <div className="event-container">
+            {data.allMarkdownRemark.edges.map(({ node }, index) => (
+              <div key={node.id}>
+              <div className="event-item tx-ma">
+                <div className={`${index == 0 ? 'h4' : 'd-display'} event-item tx-ma`}>
+                  {date[index].map(item => <h2 className={`initialism bold all-caps mr-2 text-left list-inline-item `}><li>{item.date}</li></h2>)}
+                </div>
+                <div>
+                <h3 className={`${index == 0 ? 'h2' : ''} bold italic`}>{node.frontmatter.title}</h3>
+                </div>
+                <h3 className={`small italic`}> with {node.frontmatter.by}</h3>
+                <h4 className="">{node.frontmatter.start} to {node.frontmatter.end}</h4>
+                <p className="tx-bl">{node.excerpt}</p><br />
+                <h4 className="tx-bl"> LINK TO EVENT </h4>
+                <hr className="bg-og" />
+              </div>
+              </div>
+            ))}
+          </div>
+        <div>
       </div>
     </div>
   </div>
-)
+</div>
 
-export default AboutPage
+  );
+};
+
+export const query = graphql`
+  query IndexQuery {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC } limit: 4,
+    filter: {fileAbsolutePath: {regex: "/(events)/.*\\.md$/"}}) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date
+            by
+            start
+            end
+            dates{
+              date
+            }
+          }
+           excerpt(pruneLength: 400)
+        }
+      }
+    }
+  }`;

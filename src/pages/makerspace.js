@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Link from 'gatsby-link'
 import axios from 'axios'
 import MenuItem from '../components/Menuitem'
+import Header from '../components/Header'
 import { LocalForm, Control, Errors } from 'react-redux-form';
 
 import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
@@ -177,7 +178,7 @@ const EventSec = () => (
         />
       </Col>
     </FormGroup>
-    <FormGroup row>
+    <FormGroup className="text-mobile-align"  row>
       <Col sm={{size: 3, offset: 6}}>
         Weekday
       </Col>
@@ -185,7 +186,7 @@ const EventSec = () => (
         Weekend
       </Col>
     </FormGroup>
-    <FormGroup  row>
+    <FormGroup className="text-mobile-align"  row>
 
     <Label for="exampleEmail" sm={2}>no. of hours</Label>
       <Label sm={4} check>
@@ -215,12 +216,12 @@ const EventSec = () => (
 
 
 const Layout = () => (
-  <FormSection   subtitle='Layout'>
+  <FormSection subtitle='Layout'>
     <h4 className="instrc italic"> Select type of package or shuffle the space </h4>
     <FormGroup check row>
       {layoutopts.map((opt) => (
-        <Label sm={6} check>
-          <Control.radio model=".setup" value={opt.title} component={Radio}/>
+        <Label className="text-mobile-align" sm={6} check>
+          <Control.radio model=".setup"value={opt.title} component={Radio}/>
           {' '}
           THE <span className="h4 bold">{opt.title}</span>
           <div className="ms-options">
@@ -232,14 +233,14 @@ const Layout = () => (
         </Label>
       ))}
     </FormGroup>
-    <FormGroup check row>
+    <FormGroup className="text-mobile-align"  check row>
       <Label sm={12} check>
       <Control.radio model=".setup" value="custom" component={Radio}/>
       {' '}
         THE <span className="h4 bold">Shuffle</span>
       </Label>
       <Col sm={12}>
-        upload an image of your preferred layout
+        upload an image of your preferred layout <br/><br/>
         <Control.file model=".attachment" component={File} />
       </Col>
     </FormGroup>
@@ -248,7 +249,7 @@ const Layout = () => (
 
 const Extras = () => (
   <FormSection subtitle="Extras">
-    <FormGroup check row>
+    <FormGroup  check row>
       <Label sm={12} check>
         <Control component={Radio} value="food (10 pax)" model=".addOns" />
         {' '}
@@ -295,8 +296,9 @@ class MakerSpacePage extends Component {
   render(){
     return(
       <div>
-        <div className="row row-eq-height">
-          <div className="col-md-6 content-body form-container">
+       <Header />
+        <div className="flex-wrap row-eq-height">
+          <div className="col-md-6 content-body form-container mtop">
             <LocalForm
               onUpdate={(form) => this.handleUpdate(form)}
               onChange={(values) => this.handleChange(values)}

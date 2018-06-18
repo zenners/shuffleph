@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import logo from '../Group 40-min.png'
+import Shuffle from '../shuffle-og.png'
+import "bootstrap/dist/css/bootstrap.css";
 import '../layouts/style.css'
 
 const Icon = ({icon, link}) => (
@@ -36,11 +38,11 @@ const menu = [
 ]
 
 const MenuItem = ({title, styles, path}) => (
-  <div className={`col-md-6 ${styles}`}>
+  <div className={`col-md-6 col-vh-md ${styles}`}>
   <Link
       to={path}
     >
-    <h2 className="menu-title"> {title}
+    <h2 className="md-menu-title"> {title}
     </h2>
   </Link>
 
@@ -49,7 +51,7 @@ const MenuItem = ({title, styles, path}) => (
 
 const IndexPage = () => (
 
-    <div className="row row-eq-height">
+    <div className="flex-wrap row-eq-height">
       {menu.map((item) => (
         <MenuItem title={item.title} styles={item.styles} path={item.path} />
       ))}

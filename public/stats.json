@@ -1,0 +1,98 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-928a12260510be9816fa.js",
+      "component---src-pages-index-js-928a12260510be9816fa.js.map"
+    ],
+    "path---events": [
+      "path---events-cb164560699957d174ed.js",
+      "path---events-cb164560699957d174ed.js.map"
+    ],
+    "component---src-pages-coworking-js": [
+      "component---src-pages-coworking-js-e3fcc204ce768082cdf7.js",
+      "component---src-pages-coworking-js-e3fcc204ce768082cdf7.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "cms": [
+      "cms-3cc82685b602b37d5578.js",
+      "build-js-styles.css",
+      "cms-3cc82685b602b37d5578.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---coworking": [
+      "path---coworking-a0e39f21c11f6a62c5ab.js",
+      "path---coworking-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-9b124a30592c38c80205.js",
+      "component---src-layouts-index-js-9b124a30592c38c80205.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-my-files-js": [
+      "component---src-pages-my-files-js-96431cf5e379fea51390.js",
+      "component---src-pages-my-files-js-96431cf5e379fea51390.js.map"
+    ],
+    "path---my-files": [
+      "path---my-files-3b2d71706b603be5024e.js",
+      "path---my-files-3b2d71706b603be5024e.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-333f15feee6e5fb670a6.js",
+      "build-js-styles.css",
+      "commons-333f15feee6e5fb670a6.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "component---src-pages-makerspace-js": [
+      "component---src-pages-makerspace-js-7dcfe3e1d217a15d11ac.js",
+      "component---src-pages-makerspace-js-7dcfe3e1d217a15d11ac.js.map"
+    ],
+    "path---makerspace": [
+      "path---makerspace-a0e39f21c11f6a62c5ab.js",
+      "path---makerspace-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-e14479f59add9f2d9e4f.js",
+      "build-js-styles.css",
+      "app-e14479f59add9f2d9e4f.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-events-js": [
+      "component---src-pages-events-js-8119154697e2244335fb.js",
+      "component---src-pages-events-js-8119154697e2244335fb.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-3297380c3626d6b8b85d.js",
+      "component---src-pages-about-js-3297380c3626d6b8b85d.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

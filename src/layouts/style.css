@@ -34,7 +34,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 h2 {margin-bottom: 0}
-.footer {z-index: 10}
+.footer {position: absolute; bottom: 0; width: 100%;line-height: 60px; background-color: #000;}
+
 .no-pad {padding: 0 !important;}
 .col-md-6 {padding-left: 0; padding-right: 0;}
 .bg-og { background-color: #F2B31D;}
@@ -48,24 +49,163 @@ h2 {margin-bottom: 0}
 .tx-bl {color: #212121 !important; }
 
 .menu-title {font-size: 5.3em; letter-spacing: 10px; padding: 0.85em 0.3em; font-weight: bold;}
+.md-menu-title {font-size: 4.7em; letter-spacing: 10px; padding: 0.81em 0.3em; font-weight: bold;}
 .sm-menu-title {font-size: 3.0em; display: inline-block; letter-spacing: 1px; padding: 0.75em 0.6em;}
+.xsm-menu-title {font-size: 2.3em; display: inline-block; letter-spacing: 1px; padding: 0.75em 0.6em;}
 
-.content-body {background-color: #eee; height: 700px; overflow: auto; }
+.content-body {background-color: #eee; height: 571px; overflow: auto; }
 
-.abt-content { height: 700px; overflow: auto;}
+.abt-content { height: 571px; overflow: auto;}
 .title-head {font-style: italic; font-size: 2.3em; line-height: 1.5em; letter-spacing: 1px; padding: 0.5em 1em;}
-.abt-body {padding-top: 1em; padding-bottom: 1em; padding-left: 15em; padding-right: 4em;}
+.abt-body {padding-top: 1em; padding-bottom: 1em; padding-left: 10em; padding-right: 4em;}
 
-.event-container {height: 650px; overflow: auto; padding: 3em;}
+.event-container {height: 571px; overflow: auto; padding: 3em;}
 .event-item h3 {margin-bottom: 0.5rem;}
 
 .all-caps {text-transform: uppercase;}
 .italic {font-style: italic;}
 .bold {font-weight: bold;}
 
-.form-container {padding: 2em 3em 2em 4em; height: 700px; overflow:auto;}
+.form-container {padding: 2em 3em 2em 4em; height: 571px; overflow:auto;}
 .form-group p {margin-top: 5px !important}
 .ms-options img {margin-top: 1em; margin-bottom: 1em; max-height: 250px;}
 .ms-options span {font-size: 0.8em;}
 .instr {}
 .form-control-file {margin-bottom: 1.45rem;}
+
+.flex-wrap{ display: flex; flex-wrap: wrap;}
+.navbar-collapse {height: 100vh;}
+.icon-social {color: #913156; font-size: 2rem;}
+.footer-content { line-height: 15px; font-weight: bold; font-size: 15px;}
+
+
+
+@media only screen and (min-width : 100px) {
+  .icon-social {color: #913156; font-size: 1rem;}
+  .footer-content { line-height: 15px; font-weight: bold; font-size: 12px;}
+}
+
+/* Custom, iPhone Retina */
+   @media only screen and (min-width : 320px) {
+    .flex-wrap {display: flex !important;}
+    .md-menu-title {font-size: 2.2em; letter-spacing: 10px; padding: 2rem; font-weight: bold;}
+    .md-menu-title.sm {font-size: 1.2em;}
+    .mtop {margin-top: 3.5rem;}
+    .abt-content { height: auto; overflow: auto;}
+    .abt-body {padding-left: 4em; padding-right: 2em;}
+    .event-container {height: auto; overflow: auto; padding: 2.5em;}
+    .form-container {padding: 2em 3em 2em 4em; height: auto; overflow:auto; font-size: 12px;}
+    .footer-mrgn {margin-top:1rem; margin-left: 1rem; font-size: 12px;}
+    .title-head { font-size: 1.4em; margin-bottom: 1rem;}
+    .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
+    .footer-content { line-height: 10px; font-weight: bold; font-size: 12px;}
+    .footer {position: relative; bottom: 0; width: 100%; padding: 10px; line-height: 25px; font-size: 14px; background-color: #fff; color:black;}
+    .text-mobile-align {text-align: center}
+    .form-check { position: relative;display: block;  padding-left: 0rem;}
+    .d-display { display: -webkit-inline-box; font-size: 12px}
+	}
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width : 400px) {
+    .flex-wrap {display: flex !important;}
+    .md-menu-title {font-size: 2.9em; letter-spacing: 10px; padding: 0.81em 0.8em; font-weight: bold;}
+    .md-menu-title.sm {font-size: 2.2em;}
+    .mtop {margin-top: 3.9rem;}
+    .abt-content { height: auto; overflow: auto;}
+    .event-container {height: auto; overflow: auto; padding: 3em;}
+    .form-container {padding: 2em 3em 2em 4em; height: auto; overflow:auto;}
+    .footer-content { line-height: 10px; font-weight: bold; font-size: 13px;}
+    .footer-mrgn {margin-top:1rem; font-size: 13px;}
+    .title-head { font-size: 2.2em;}
+    .icon.social {margin-top: -0.3em}
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .footer-mrgn {margin-top:1rem; font-size: 12px;}
+    .mtop {margin-top: 3.9rem;}
+    .md-menu-title {font-size: 2.9rem; padding: 2rem;}
+    .md-menu-title.sm {font-size: 1.8em;}
+    .abt-content { height: auto; overflow: auto;}
+    .abt-body {padding-left: 5em; padding-right: 3em;}
+    .event-container {height: auto; overflow: auto; padding: 3em;}
+    .form-container {padding: 3em 4em 0em 4em; height: auto; overflow:auto; font-size: 13px;}
+    .footer-content { line-height: 10px; font-weight: bold; font-size: 15px;}
+    .title-head { font-size: 1.6em;}
+    .icon.social {margin-top: -0.3em}
+  }
+
+	/* Small Devices, Tablets */
+   @media only screen and (min-width : 768px) {
+    label.col-sm-2 { padding-right: 0px; font-size: 12px;}
+    .navbar {display: none !important;}
+    .flex-wrap {display: flex !important;}
+    .footer-mrgn {margin-top:1.5rem; font-size: 12px;}
+    .mtop {margin-top: 0rem;}
+    .md-menu-title {font-size: 2.5rem; padding: 2rem; margin-bottom: 130px; margin-top: 170px;}
+    .abt-content { height: 934px; overflow: auto;}
+    .event-container {height: 934px; overflow: auto; padding: 3em;}
+    .form-container {padding: 4em 2em 0em 3.5em; height: 934px; overflow:auto; font-size: 10px;}
+    .cnt-size {height: 934px;}
+    .xsm-menu-title {font-size: 1.7em;}
+    .icon {margin-top: 0.3em}
+    .div-height{ height: 725px;}
+    .footer-content { line-height: 10px; font-weight: bold; font-size: 15px;}
+    .text-mobile-align {text-align: left}
+	}
+
+	/* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    .navbar {display: none !important;}
+    .flex-wrap {display: flex !important;}
+    .footer-mrgn {margin-top:1.5rem; font-size: 16px;}
+    .mtop {margin-top: 0rem;}
+    .md-menu-title {font-size: 3.8rem; padding: 2rem; margin-bottom: 190px; margin-top: 190px;}
+    .abt-content { height: 1270px; overflow: auto;}
+    .event-container {height: 1270px; overflow: auto; padding: 3em;}
+    .form-container {padding: 2em 3em 2em 4em; height: 1270px; overflow:auto;}
+    .xsm-menu-title {font-size: 2.4em;}
+    .icon {margin-top: 0.7em}
+    .div-height{ height: 999px;}
+    .col-vh-sm { height: none; }
+    .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
+    .footer-content { line-height: 15px; font-weight: bold; font-size: 20px;}
+    .footer {bottom: 0; width: 100%;line-height: 60px; background-color: #fff; color:black}
+    .text-mobile-align {text-align: left}
+	}
+
+
+	/* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1025px) {
+    html { font-size: 1rem; margin: 0; overflow: hidden;}
+    label.col-sm-2 { padding-right: 0px; font-size: 14px;}
+    .navbar {display: none !important;}
+    .flex-wrap {display: flex !important;}
+    .md-menu-title {font-size: 3.3rem; padding: .88em .3em; margin-bottom: 10px; margin-top: 20px;}
+    .mtop {margin-top: 0rem;}
+    .abt-content { height: 100vh; overflow: auto;}
+    .event-container {height: 100vh; overflow: auto; padding: 3em;}
+    .form-container {padding: 2em 3em 2em 6em; height: 90vh; overflow:auto; font-size: 0.8rem;}
+    .navbar {display: none !important;}
+    .footer-mrgn {margin-top:3.5rem;}
+    .icon {margin-top: 0.7em}
+    .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
+    .footer-content { line-height: 15px; font-weight: bold; font-size: 13px;}
+    .div-height{ height: auto;}
+    .footer {position: absolute; bottom: 0; width: 100%;line-height: 50px; background-color: #fff; color:black}
+    .col-vh-md { height: 47vh; }
+    .col-vh-abt { height: 47vh; }
+    .col-vh-sm { height: 14vh; }
+    .col-vh-lg { height: 90vh; }
+    .text-mobile-align {text-align: left}
+    .d-display { display: inline-block; font-size: 14px;}
+	}
+
+
+  @media only screen and (min-width : 1300px) {
+    .icon-social {color: #913156; font-size: 1.5rem; margin-left: 1rem;}
+    .footer-content { line-height: 15px; font-weight: bold; font-size: 14px;}
+    .footer {position: absolute; bottom: 0; width: 100%;line-height: 50px; background-color: #fff; color:black}
+    .col-vh-md { height: 45vh; }
+    .col-vh-sm { height: 15vh; }
+    .col-vh-abt { height: 45vh; }
+  }

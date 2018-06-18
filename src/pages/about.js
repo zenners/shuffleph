@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import MenuItem from '../components/Menuitem'
+import Header from '../components/Header'
 import img from '../about.jpg'
 
 import Shuffle from '../shuffle-og.png'
@@ -22,7 +23,7 @@ const menu = [
     isActive: false,
   },
   {
-    title: 'MAKERSPACE',
+    title: 'MAKER SPACE',
     styles: 'bg-bl tx-gr',
     path: '/makerspace',
     isActive: false,
@@ -40,7 +41,7 @@ const AboutContent = ({title, copy, othercopy, subcopy}) => (
   <div className="">
     <h3 className="tx-ma title-head"> {title} </h3>
     <p className="abt-body"> {copy} </p>
-    <div>  <img src={img} />  </div>
+    <div>  <img className="img-fluid" style={{marginBottom: '15.2px'}} src={img} />  </div>
     <p className="abt-body">
     {othercopy}
     </p>
@@ -49,8 +50,9 @@ const AboutContent = ({title, copy, othercopy, subcopy}) => (
 )
 
 const AboutPage = () => (
-  <div>
-    <div className="row row-eq-height">
+  <div className="overflow">
+    <Header />
+    <div className="flex-wrap row-eq-height mtop">
       <div className="col-md-6 no-pad">
         <div className="d-flex flex-column">
         {menu.map((item) => (
@@ -59,9 +61,9 @@ const AboutPage = () => (
         </div>
 
       </div>
-      <div className="col-md-6 content-body abt-content">
-        <div className="bg-ma text-center">
-          <img style={{maxHeight: '307px'}}src={Shuffle}/>
+      <div className="col-md-6 content-body abt-content col-vh-lg">
+        <div className="bg-ma text-center col-vh-abt">
+          <img className="pt-4" style={{maxHeight: '263px'}} src={Shuffle}/>
         </div>
         <AboutContent
           title={data.title}
@@ -71,6 +73,7 @@ const AboutPage = () => (
         />
       </div>
     </div>
+
   </div>
 )
 
