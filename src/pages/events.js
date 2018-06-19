@@ -4,7 +4,7 @@ import MenuItem from '../components/Menuitem'
 import Header from '../components/Header'
 import logo from '../Group 40-min.png'
 import '../layouts/style.css'
-import data from '../content/event'
+
 
 
 const menu = [
@@ -46,11 +46,11 @@ var dates = data.allMarkdownRemark.edges.map((item)=>{
 
 var date = Object.values(dates);
 
-
-date.map((item, index) => {
-  // console.log("SECTION: ", index)
-  item.map(i =>  i.date )
-})
+//
+// date.map((item, index) => {
+//   // console.log("SECTION: ", index)
+//   item.map(i =>  i.date )
+// })
 
   return (
     <div>
@@ -78,7 +78,7 @@ date.map((item, index) => {
                 <h3 className={`small italic`}> with {node.frontmatter.by}</h3>
                 <h4 className="">{node.frontmatter.start} to {node.frontmatter.end}</h4>
                 <p className="tx-bl">{node.excerpt}</p><br />
-                <h4 className="tx-bl"> LINK TO EVENT </h4>
+                <h4 className="tx-bl"><Link to='../'> LINK TO EVENT </Link> </h4>
                 <hr className="bg-og" />
               </div>
               </div>
@@ -102,6 +102,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            image
             date
             by
             start
