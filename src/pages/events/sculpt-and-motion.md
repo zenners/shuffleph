@@ -10,6 +10,8 @@ dates:
   - date: 'April 28, 2018'
 start: '09:00am'
 end: '10:00am'
-image: /assets/images/shuffle.png
+image:
+  - images: /assets/images/default_image.png
+  - images: /assets/images/shuffle.png
 ---
 A 34 mins high intensity interval training. Targetting to sculpt key parts of your body with high intensity workout routine.
