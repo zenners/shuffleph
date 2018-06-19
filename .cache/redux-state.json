@@ -3178,6 +3178,48 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "C:/Users/AGCUSER/Desktop/shuffleph/src/cms absPath of file": {
+      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/cms absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a067acec3912fc25e3244ec0abe89814",
+        "type": "Directory",
+        "description": "Directory \"src\\cms\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/cms",
+      "relativePath": "cms",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-06-19T01:51:35.192Z",
+      "accessTime": "2018-06-19T01:51:35.192Z",
+      "changeTime": "2018-06-19T01:51:35.192Z",
+      "birthTime": "2018-06-19T01:51:35.176Z",
+      "root": "C:/",
+      "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src",
+      "base": "cms",
+      "ext": "",
+      "name": "cms",
+      "relativeDirectory": "",
+      "dev": 585160515,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 10133099161858522,
+      "atimeMs": 1529373095191.72,
+      "mtimeMs": 1529373095191.72,
+      "ctimeMs": 1529373095191.72,
+      "birthtimeMs": 1529373095176.0938,
+      "atime": "2018-06-19T01:51:35.192Z",
+      "mtime": "2018-06-19T01:51:35.192Z",
+      "ctime": "2018-06-19T01:51:35.192Z",
+      "birthtime": "2018-06-19T01:51:35.176Z"
     }
   },
   "status": {
