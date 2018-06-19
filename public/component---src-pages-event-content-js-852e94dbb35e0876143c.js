@@ -1,0 +1,2 @@
+webpackJsonp([7088204806727],{143:function(o,a){"use strict";o.exports=[{title:"Food Photography and Social Media",from:"9am",to:"5pm",by:"Cerial Studio",date:"March 7"},{title:"Food Photography and Social Media",from:"9am",to:"5pm",by:"Cerial Studio",date:"March 8"},{title:"Food Photography and Social Media",from:"9am",to:"5pm",by:"Cerial Studio",date:"March 9"},{title:"Food Photography and Social Media",from:"9am",to:"5pm",by:"Cerial Studio",date:"March 10"}]}});
+//# sourceMappingURL=component---src-pages-event-content-js-852e94dbb35e0876143c.js.map

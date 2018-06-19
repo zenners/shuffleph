@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: dackalacbayo/shuffleph # Path to your Github repository
+  repo: zenners/shuffleph # Path to your Github repository
   branch: master # Branch to update
 
 media_folder: static/assets/images
