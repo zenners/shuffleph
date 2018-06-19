@@ -45,6 +45,7 @@ var dates = data.allMarkdownRemark.edges.map((item)=>{
    return item.dates})
 
 var date = Object.values(dates);
+// console.log("date",date);
 
 //
 // date.map((item, index) => {
@@ -102,11 +103,13 @@ export const query = graphql`
           id
           frontmatter {
             title
-            image
             date
             by
             start
             end
+            image{
+              images
+            }
             dates{
               date
             }
