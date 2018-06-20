@@ -359,7 +359,7 @@ class MakerSpacePage extends Component {
                 </form>
             </LocalForm>
 
-            <form name="contacts" method="POST" netlify>
+            <form name="contacts" data-netlify="true" method="POST" netlify>
   <label>What is your name?
     <input name="full-name" type="text" placeholder="Your full name" required/>
   </label>
