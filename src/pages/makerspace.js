@@ -348,8 +348,9 @@ class MakerSpacePage extends Component {
               onChange={(values) => this.handleChange(values)}
               onSubmit={(values) => this.handleSubmit(values)}
             >
+              </LocalForm>
                 <h3 className="title-head tx-ma no-pad"> Book our Makerspace </h3>
-                <form name="contact" method="post" data-netlify="true" action="/success" data-netlify-honeypot="bot-field">
+                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                   <input type="hidden" name="bot-field" />
                 <InfoSection />
                 <EventSec />
@@ -357,7 +358,7 @@ class MakerSpacePage extends Component {
                 <Extras />
                 <Button className="bg-ma tx-og"block>Submit</Button>
                 </form>
-            </LocalForm>
+
 
 
           </div>

@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ba9849b717af2fd7d3112d11b70f3c0f",
+        "contentDigest": "a08a63816fcbaede591cb8e892923af3",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -734,12 +734,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-19T23:52:25.699Z",
+      "buildTime": "2018-06-20T02:33:57.540Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b7eceb8a2e4f94abe2001c0abf9516b2",
+        "contentDigest": "f95c6d2dd89e34eada78022b18e71088",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -959,7 +959,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3cf242607a82754c63b7ea9ae0d1cd48",
+        "contentDigest": "5ce63ab2cdf485cdf3e882ec6e612ed0",
         "type": "Directory",
         "description": "Directory \"src\\pages\"",
         "owner": "gatsby-source-filesystem"
@@ -970,9 +970,9 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-06-19T02:20:57.331Z",
-      "accessTime": "2018-06-19T02:20:57.331Z",
-      "changeTime": "2018-06-19T02:20:57.331Z",
+      "modifiedTime": "2018-06-20T02:32:48.844Z",
+      "accessTime": "2018-06-20T02:32:48.844Z",
+      "changeTime": "2018-06-20T02:32:48.844Z",
       "birthTime": "2018-06-18T08:42:02.600Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src",
@@ -987,13 +987,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 1688849860889821,
-      "atimeMs": 1529374857330.9932,
-      "mtimeMs": 1529374857330.9932,
-      "ctimeMs": 1529374857330.9932,
+      "atimeMs": 1529461968843.7651,
+      "mtimeMs": 1529461968843.7651,
+      "ctimeMs": 1529461968843.7651,
       "birthtimeMs": 1529311322599.6833,
-      "atime": "2018-06-19T02:20:57.331Z",
-      "mtime": "2018-06-19T02:20:57.331Z",
-      "ctime": "2018-06-19T02:20:57.331Z",
+      "atime": "2018-06-20T02:32:48.844Z",
+      "mtime": "2018-06-20T02:32:48.844Z",
+      "ctime": "2018-06-20T02:32:48.844Z",
       "birthtime": "2018-06-18T08:42:02.600Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/components/Footer absPath of file": {
@@ -1986,7 +1986,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "aadf6fd8ca48ceb951aaa3376ad60811",
+        "contentDigest": "cef534ef6702f4ec3c73adef52c1e2d8",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src\\pages\\makerspace.js\"",
@@ -1996,11 +1996,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/makerspace.js",
       "relativePath": "pages/makerspace.js",
       "extension": "js",
-      "size": 10341,
+      "size": 10327,
       "prettySize": "10.3 kB",
-      "modifiedTime": "2018-06-20T02:31:22.890Z",
+      "modifiedTime": "2018-06-20T02:43:40.468Z",
       "accessTime": "2018-06-18T08:42:02.610Z",
-      "changeTime": "2018-06-20T02:31:22.890Z",
+      "changeTime": "2018-06-20T02:43:40.468Z",
       "birthTime": "2018-06-18T08:42:02.610Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
@@ -2016,12 +2016,12 @@
       "rdev": 0,
       "ino": 1688849860889832,
       "atimeMs": 1529311322609.6936,
-      "mtimeMs": 1529461882890.3333,
-      "ctimeMs": 1529461882890.3333,
+      "mtimeMs": 1529462620467.5007,
+      "ctimeMs": 1529462620467.5007,
       "birthtimeMs": 1529311322609.6936,
       "atime": "2018-06-18T08:42:02.610Z",
-      "mtime": "2018-06-20T02:31:22.890Z",
-      "ctime": "2018-06-20T02:31:22.890Z",
+      "mtime": "2018-06-20T02:43:40.468Z",
+      "ctime": "2018-06-20T02:43:40.468Z",
       "birthtime": "2018-06-18T08:42:02.610Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/my-files.js absPath of file": {
@@ -3049,7 +3049,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b7fef2f89a5fef495e110fd303c573c3",
+        "contentDigest": "6170b46bd7f6675b6f1661ac52b033f9",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3070,7 +3070,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "57e9c23beaa7e95c34d1c4fc18dc71d2",
+        "contentDigest": "e7562a9ad172ad49362fc6cd19315d0d",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3091,7 +3091,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9bcaf0da4bd0ad14a16e95bfb741baa3",
+        "contentDigest": "cc28b98ad05cbc0bd03660cc557d00af",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3112,7 +3112,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "664c8206b6117e1d3e8ee44c322091e8",
+        "contentDigest": "5cfa4a7421f4ee8a19ca26376780059e",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3133,7 +3133,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d1be650b8c046fb660df107edf842403",
+        "contentDigest": "8c0875b7f1a1639a21b63f2a5770aa70",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3154,7 +3154,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "234b546e07b9f2f65966a9f811a72454",
+        "contentDigest": "fb13b88fa669d89a2d35730222ec608d",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3175,7 +3175,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f2a3282336f5e8e670460ec7f5398bba",
+        "contentDigest": "c390205229ca843dae99989d5983d76d",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3196,7 +3196,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4a7cb273b283a37e4078d07fcd240730",
+        "contentDigest": "4d11cfb54658994673a73da930f8c638",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3217,7 +3217,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e90904b906158e5fc6b1e98436130db4",
+        "contentDigest": "1fc99f0bd7315536cf136a7c3496df68",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3238,29 +3238,8 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e550716d626563cc26fac971e9d8305a",
+        "contentDigest": "d2242028aef97e0f75ebbe42a4df66f8",
         "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /success/": {
-      "layout": "index",
-      "jsonName": "success.json",
-      "internalComponentName": "ComponentSuccess",
-      "path": "/success/",
-      "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/success.js",
-      "componentChunkName": "component---src-pages-success-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/success.js",
-      "id": "SitePage /success/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "442f4f67b819384ae3eae33a332f6475",
-        "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
     }
