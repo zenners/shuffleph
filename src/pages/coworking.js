@@ -48,10 +48,10 @@ const menu = [
 const options = [
   { title: 'whole day', time: '8 hours', price: '500',},
   { title: 'half day', time: '4 hours', price: '350',},
-  { title: 'pit stop', time: '1 hour', price: '200',},
-  { title: 'weekly', time: '6 days', price: '2,800',},
-  { title: 'monthly', time: '30 days', price: '10,000',},
-  { title: '10 day pass', time: '10 days + 1', price: '5,000',},
+  { title: 'pit stop', time: '1 hour', price: '100',},
+  { title: 'weekly', time: '5 days', price: '2,300',},
+  { title: 'monthly', time: '20 days', price: '8,500',},
+  { title: '25-day pass', time: '2 months', price: '10,500',},
 
 ]
 

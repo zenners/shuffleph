@@ -178,7 +178,7 @@ const EventSec = () => (
         />
       </Col>
     </FormGroup>
-    <FormGroup className="text-mobile-align"  row>
+    <FormGroup className=""  row>
       <Col sm={{size: 3, offset: 6}}>
         Weekday
       </Col>
@@ -186,12 +186,11 @@ const EventSec = () => (
         Weekend
       </Col>
     </FormGroup>
-    <FormGroup className="text-mobile-align"  row>
+    <FormGroup className=""  row>
 
     <Label for="exampleEmail" sm={2}>no. of hours</Label>
       <Label sm={4} check>
           <Control.radio required model=".duration" value="whole day" component={Radio}/>
-          {' '}
           whole day (10 hrs)
         </Label>
         <Col sm={{size: 3}}>
@@ -210,6 +209,16 @@ const EventSec = () => (
           <Col sm={{size: 3}}>
             <p>P 6,000 </p>
           </Col>
+          <Label sm={{size:4, offset: 2}} check>
+          <Control.radio model=".duration" value="half day"component={Radio}/>
+              pit stop (1 hr)
+            </Label>
+            <Col sm={{size: 3}}>
+              <p>P 1,500 </p>
+            </Col>
+            <Col sm={{size: 3}}>
+              <p>P 2,000 </p>
+            </Col>
     </FormGroup>
   </FormSection>
 )
@@ -276,16 +285,51 @@ var is_weekend =  function(date1){
 }
 
 const apiUrl = 'https://9su5wlor3c.execute-api.ap-southeast-1.amazonaws.com/latest'
-
+const encode = (data) => {
+   return Object.keys(data)
+       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+       .join("&");
+ }
 class MakerSpacePage extends Component {
+  constructor(props) {
+       super(props);
+       this.state = { name: "", email: "", message: "" };
+     }
+
   handleChange(values) { console.log(values) }
   handleUpdate(form) { console.log(form) }
-  handleSubmit(values) {
-    const url = `${apiUrl}/api/events`
-    axios.post(url, values)
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err))
-  }
+
+
+
+  handleSubmit = values => {
+     fetch("/", {
+       method: "POST",
+       headers: { "Content-Type": "application/x-www-form-urlencoded" },
+       body: encode(values)
+     })
+       .then(() => alert("Success!"))
+       .catch(error => alert(error));
+
+     // e.preventDefault();
+   };
+
+  // handleSubmit(values) {
+  //
+  //     const url = 'https://formspree.io/dackalacbayo@gmail.com'
+  //     // const config = { headers: {
+  //     //   'Content-Type': 'application/x-www-form-urlencoded',
+  //     //  }};
+  //         axios.post(url, values)
+  //         .then(response => console.log(response))
+  //         .catch(errors => console.log(errors));
+  //
+  //   // const url = `${apiUrl}/api/events`
+  //   // axios.post(url, values)
+  //   //   .then((res) => console.log(res))
+  //   //   .catch((err) => console.log(err))
+  // }
+
+
   handleSubmitFailed(userForm) {
     // logs form-level errors
     console.log(userForm.$form.errors);
@@ -305,12 +349,14 @@ class MakerSpacePage extends Component {
               onSubmit={(values) => this.handleSubmit(values)}
             >
                 <h3 className="title-head tx-ma no-pad"> Book our Makerspace </h3>
-
+                <form name="contact" data-netlify="true"
+                    data-netlify-honeypot="bot-field" netlify>
                 <InfoSection />
                 <EventSec />
                 <Layout />
                 <Extras />
                 <Button className="bg-ma tx-og"block>Submit</Button>
+                </form>
             </LocalForm>
 
 

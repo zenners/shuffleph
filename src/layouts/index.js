@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 import "bootstrap/dist/css/bootstrap.css";
 import './index.css'
-// import "bootstrap/dist/js/bootstrap.js";
+import "bootstrap/dist/js/bootstrap.js";
 
 const TemplateWrapper = ({ children }) => (
   <div>

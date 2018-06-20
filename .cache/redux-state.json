@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2df5c77521c59fcc3b840bb263a520b1",
+        "contentDigest": "ba9849b717af2fd7d3112d11b70f3c0f",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -734,12 +734,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-19T01:11:58.017Z",
+      "buildTime": "2018-06-19T23:52:25.699Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6a19f80191fe8b21378ae3edbb3e3ad9",
+        "contentDigest": "b7eceb8a2e4f94abe2001c0abf9516b2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -749,7 +749,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ace75e8efa63afba90b91b622e8258c3",
+        "contentDigest": "efdc541ff397f4737dc2502c7dd060cf",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -760,9 +760,9 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-06-18T08:42:02.617Z",
-      "accessTime": "2018-06-18T08:42:02.617Z",
-      "changeTime": "2018-06-18T08:42:02.617Z",
+      "modifiedTime": "2018-06-19T01:55:13.665Z",
+      "accessTime": "2018-06-19T01:55:13.665Z",
+      "changeTime": "2018-06-19T01:55:13.665Z",
       "birthTime": "2018-06-18T08:42:02.559Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph",
@@ -777,13 +777,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 1688849860889793,
-      "atimeMs": 1529311322616.6997,
-      "mtimeMs": 1529311322616.6997,
-      "ctimeMs": 1529311322616.6997,
+      "atimeMs": 1529373313664.6929,
+      "mtimeMs": 1529373313664.6929,
+      "ctimeMs": 1529373313664.6929,
       "birthtimeMs": 1529311322559.3877,
-      "atime": "2018-06-18T08:42:02.617Z",
-      "mtime": "2018-06-18T08:42:02.617Z",
-      "ctime": "2018-06-18T08:42:02.617Z",
+      "atime": "2018-06-19T01:55:13.665Z",
+      "mtime": "2018-06-19T01:55:13.665Z",
+      "ctime": "2018-06-19T01:55:13.665Z",
       "birthtime": "2018-06-18T08:42:02.559Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/content absPath of file": {
@@ -959,7 +959,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "47a4178eeaa5a390ed68b72cfa762e8b",
+        "contentDigest": "3cf242607a82754c63b7ea9ae0d1cd48",
         "type": "Directory",
         "description": "Directory \"src\\pages\"",
         "owner": "gatsby-source-filesystem"
@@ -970,9 +970,9 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-06-19T00:53:41.640Z",
-      "accessTime": "2018-06-19T00:53:41.640Z",
-      "changeTime": "2018-06-19T00:53:41.640Z",
+      "modifiedTime": "2018-06-19T02:20:57.331Z",
+      "accessTime": "2018-06-19T02:20:57.331Z",
+      "changeTime": "2018-06-19T02:20:57.331Z",
       "birthTime": "2018-06-18T08:42:02.600Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src",
@@ -987,13 +987,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 1688849860889821,
-      "atimeMs": 1529369621640.3938,
-      "mtimeMs": 1529369621640.3938,
-      "ctimeMs": 1529369621640.3938,
+      "atimeMs": 1529374857330.9932,
+      "mtimeMs": 1529374857330.9932,
+      "ctimeMs": 1529374857330.9932,
       "birthtimeMs": 1529311322599.6833,
-      "atime": "2018-06-19T00:53:41.640Z",
-      "mtime": "2018-06-19T00:53:41.640Z",
-      "ctime": "2018-06-19T00:53:41.640Z",
+      "atime": "2018-06-19T02:20:57.331Z",
+      "mtime": "2018-06-19T02:20:57.331Z",
+      "ctime": "2018-06-19T02:20:57.331Z",
       "birthtime": "2018-06-18T08:42:02.600Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/components/Footer absPath of file": {
@@ -1001,7 +1001,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2893cf276331fcf9a19ff7bb76a5d672",
+        "contentDigest": "29162e305310c81dcd4f6d7514e2a9a8",
         "type": "Directory",
         "description": "Directory \"src\\components\\Footer\"",
         "owner": "gatsby-source-filesystem"
@@ -1014,7 +1014,7 @@
       "prettySize": "0 B",
       "modifiedTime": "2018-06-18T08:42:02.572Z",
       "accessTime": "2018-06-18T08:42:02.572Z",
-      "changeTime": "2018-06-18T08:42:02.572Z",
+      "changeTime": "2018-06-19T01:55:06.855Z",
       "birthTime": "2018-06-18T08:42:02.571Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/components",
@@ -1031,11 +1031,11 @@
       "ino": 1688849860889799,
       "atimeMs": 1529311322572.44,
       "mtimeMs": 1529311322572.44,
-      "ctimeMs": 1529311322572.44,
+      "ctimeMs": 1529373306855.1804,
       "birthtimeMs": 1529311322571.4392,
       "atime": "2018-06-18T08:42:02.572Z",
       "mtime": "2018-06-18T08:42:02.572Z",
-      "ctime": "2018-06-18T08:42:02.572Z",
+      "ctime": "2018-06-19T01:55:06.855Z",
       "birthtime": "2018-06-18T08:42:02.571Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/components/Header absPath of file": {
@@ -1085,7 +1085,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5e6dd7864bfe9f4dfa9a68bd9019c809",
+        "contentDigest": "e0097325eeedba02cd51565d92d314a8",
         "type": "Directory",
         "description": "Directory \"src\\pages\\events\"",
         "owner": "gatsby-source-filesystem"
@@ -1096,9 +1096,9 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-06-19T01:09:37.281Z",
-      "accessTime": "2018-06-19T01:09:37.281Z",
-      "changeTime": "2018-06-19T01:09:37.281Z",
+      "modifiedTime": "2018-06-19T01:23:08.982Z",
+      "accessTime": "2018-06-19T01:23:08.982Z",
+      "changeTime": "2018-06-19T01:23:08.982Z",
       "birthTime": "2018-06-18T08:42:02.605Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
@@ -1113,13 +1113,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 1688849860889826,
-      "atimeMs": 1529370577281.2578,
-      "mtimeMs": 1529370577281.2578,
-      "ctimeMs": 1529370577281.2578,
+      "atimeMs": 1529371388981.735,
+      "mtimeMs": 1529371388981.735,
+      "ctimeMs": 1529371388981.735,
       "birthtimeMs": 1529311322604.6892,
-      "atime": "2018-06-19T01:09:37.281Z",
-      "mtime": "2018-06-19T01:09:37.281Z",
-      "ctime": "2018-06-19T01:09:37.281Z",
+      "atime": "2018-06-19T01:23:08.982Z",
+      "mtime": "2018-06-19T01:23:08.982Z",
+      "ctime": "2018-06-19T01:23:08.982Z",
       "birthtime": "2018-06-18T08:42:02.605Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/news absPath of file": {
@@ -1728,7 +1728,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "22f16d37e78150b8f788a5ac60111f64",
+        "contentDigest": "46383c2da471f7cfbbb6dd8b06babe19",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src\\layouts\\index.js\"",
@@ -1738,11 +1738,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/layouts/index.js",
       "relativePath": "layouts/index.js",
       "extension": "js",
-      "size": 1193,
+      "size": 1190,
       "prettySize": "1.19 kB",
-      "modifiedTime": "2018-06-19T00:54:23.582Z",
+      "modifiedTime": "2018-06-19T02:38:08.580Z",
       "accessTime": "2018-06-18T08:42:02.596Z",
-      "changeTime": "2018-06-19T00:54:23.582Z",
+      "changeTime": "2018-06-19T02:38:08.580Z",
       "birthTime": "2018-06-18T08:42:02.596Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/layouts",
@@ -1758,12 +1758,12 @@
       "rdev": 0,
       "ino": 1688849860889819,
       "atimeMs": 1529311322595.6794,
-      "mtimeMs": 1529369663581.6968,
-      "ctimeMs": 1529369663581.6968,
+      "mtimeMs": 1529375888579.5022,
+      "ctimeMs": 1529375888579.5022,
       "birthtimeMs": 1529311322595.6794,
       "atime": "2018-06-18T08:42:02.596Z",
-      "mtime": "2018-06-19T00:54:23.582Z",
-      "ctime": "2018-06-19T00:54:23.582Z",
+      "mtime": "2018-06-19T02:38:08.580Z",
+      "ctime": "2018-06-19T02:38:08.580Z",
       "birthtime": "2018-06-18T08:42:02.596Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/layouts/index.css absPath of file": {
@@ -1943,7 +1943,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8905a2b2839b9f10e2cc8ebaf9557d51",
+        "contentDigest": "678b6b8738cd73ed324cbd186140caed",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src\\pages\\coworking.js\"",
@@ -1953,11 +1953,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/coworking.js",
       "relativePath": "pages/coworking.js",
       "extension": "js",
-      "size": 4487,
-      "prettySize": "4.49 kB",
-      "modifiedTime": "2018-06-18T08:42:02.603Z",
+      "size": 4484,
+      "prettySize": "4.48 kB",
+      "modifiedTime": "2018-06-19T10:58:09.578Z",
       "accessTime": "2018-06-18T08:42:02.603Z",
-      "changeTime": "2018-06-18T08:42:02.603Z",
+      "changeTime": "2018-06-19T10:58:09.578Z",
       "birthTime": "2018-06-18T08:42:02.603Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
@@ -1973,12 +1973,12 @@
       "rdev": 0,
       "ino": 1688849860889824,
       "atimeMs": 1529311322602.686,
-      "mtimeMs": 1529311322602.686,
-      "ctimeMs": 1529311322602.686,
+      "mtimeMs": 1529405889577.924,
+      "ctimeMs": 1529405889577.924,
       "birthtimeMs": 1529311322602.686,
       "atime": "2018-06-18T08:42:02.603Z",
-      "mtime": "2018-06-18T08:42:02.603Z",
-      "ctime": "2018-06-18T08:42:02.603Z",
+      "mtime": "2018-06-19T10:58:09.578Z",
+      "ctime": "2018-06-19T10:58:09.578Z",
       "birthtime": "2018-06-18T08:42:02.603Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/makerspace.js absPath of file": {
@@ -1986,7 +1986,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6ec0caa9538e6097ada8e2f55a4aacf1",
+        "contentDigest": "b5f5b365f3f695c6473f9c6972f122b3",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src\\pages\\makerspace.js\"",
@@ -1996,11 +1996,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/makerspace.js",
       "relativePath": "pages/makerspace.js",
       "extension": "js",
-      "size": 8858,
-      "prettySize": "8.86 kB",
-      "modifiedTime": "2018-06-18T10:26:11.359Z",
+      "size": 10278,
+      "prettySize": "10.3 kB",
+      "modifiedTime": "2018-06-20T01:59:31.471Z",
       "accessTime": "2018-06-18T08:42:02.610Z",
-      "changeTime": "2018-06-18T10:26:11.359Z",
+      "changeTime": "2018-06-20T01:59:31.471Z",
       "birthTime": "2018-06-18T08:42:02.610Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
@@ -2016,12 +2016,12 @@
       "rdev": 0,
       "ino": 1688849860889832,
       "atimeMs": 1529311322609.6936,
-      "mtimeMs": 1529317571358.9883,
-      "ctimeMs": 1529317571358.9883,
+      "mtimeMs": 1529459971470.841,
+      "ctimeMs": 1529459971470.841,
       "birthtimeMs": 1529311322609.6936,
       "atime": "2018-06-18T08:42:02.610Z",
-      "mtime": "2018-06-18T10:26:11.359Z",
-      "ctime": "2018-06-18T10:26:11.359Z",
+      "mtime": "2018-06-20T01:59:31.471Z",
+      "ctime": "2018-06-20T01:59:31.471Z",
       "birthtime": "2018-06-18T08:42:02.610Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/my-files.js absPath of file": {
@@ -2795,7 +2795,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bb27a56caa743e65a754ab025e930498",
+        "contentDigest": "0c0410591b2d17ba690100ee2e154f1a",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src\\pages\\events.js\"",
@@ -2805,11 +2805,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events.js",
       "relativePath": "pages/events.js",
       "extension": "js",
-      "size": 3189,
-      "prettySize": "3.19 kB",
-      "modifiedTime": "2018-06-19T01:22:26.974Z",
+      "size": 3375,
+      "prettySize": "3.38 kB",
+      "modifiedTime": "2018-06-19T02:32:53.623Z",
       "accessTime": "2018-06-18T09:29:11.102Z",
-      "changeTime": "2018-06-19T01:22:26.974Z",
+      "changeTime": "2018-06-19T02:32:53.623Z",
       "birthTime": "2018-06-18T09:29:11.102Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
@@ -2825,12 +2825,12 @@
       "rdev": 0,
       "ino": 11540474045361864,
       "atimeMs": 1529314151101.9539,
-      "mtimeMs": 1529371346974.3716,
-      "ctimeMs": 1529371346974.3716,
+      "mtimeMs": 1529375573622.551,
+      "ctimeMs": 1529375573622.551,
       "birthtimeMs": 1529314151101.9539,
       "atime": "2018-06-18T09:29:11.102Z",
-      "mtime": "2018-06-19T01:22:26.974Z",
-      "ctime": "2018-06-19T01:22:26.974Z",
+      "mtime": "2018-06-19T02:32:53.623Z",
+      "ctime": "2018-06-19T02:32:53.623Z",
       "birthtime": "2018-06-18T09:29:11.102Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/sculpt-and-motion.md absPath of file >>> MarkdownRemark": {
@@ -2990,6 +2990,49 @@
       "rawMarkdownBody": "Get that legitimately summer aesthetic down to a tee (pun quite intended 😂) through this awesome 90s flashback workshop!\r\n",
       "fileAbsolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events/tie-dye-101.md"
     },
+    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events-page.js absPath of file": {
+      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events-page.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "864a585c6da70bd561476b54d84b696a",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src\\pages\\events-page.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events-page.js",
+      "relativePath": "pages/events-page.js",
+      "extension": "js",
+      "size": 5454,
+      "prettySize": "5.45 kB",
+      "modifiedTime": "2018-06-19T02:41:30.453Z",
+      "accessTime": "2018-06-19T02:20:57.331Z",
+      "changeTime": "2018-06-19T02:41:30.453Z",
+      "birthTime": "2018-06-19T02:20:57.331Z",
+      "root": "C:/",
+      "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
+      "base": "events-page.js",
+      "ext": ".js",
+      "name": "events-page",
+      "relativeDirectory": "pages",
+      "dev": 585160515,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5629499534842118,
+      "atimeMs": 1529374857330.9932,
+      "mtimeMs": 1529376090452.7073,
+      "ctimeMs": 1529376090452.7073,
+      "birthtimeMs": 1529374857330.9932,
+      "atime": "2018-06-19T02:20:57.331Z",
+      "mtime": "2018-06-19T02:41:30.453Z",
+      "ctime": "2018-06-19T02:41:30.453Z",
+      "birthtime": "2018-06-19T02:20:57.331Z"
+    },
     "SitePage /404/": {
       "layout": "index",
       "jsonName": "404.json",
@@ -3006,7 +3049,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0b5f312670e98761e9a3679f8d63069c",
+        "contentDigest": "b7fef2f89a5fef495e110fd303c573c3",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3027,7 +3070,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1b90e9bbc7868570cc75b5bbfd60e09b",
+        "contentDigest": "57e9c23beaa7e95c34d1c4fc18dc71d2",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3048,7 +3091,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5ed3e6ae1197de970048208a78416c7b",
+        "contentDigest": "9bcaf0da4bd0ad14a16e95bfb741baa3",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /events-page/": {
+      "layout": "index",
+      "jsonName": "events-page.json",
+      "internalComponentName": "ComponentEventsPage",
+      "path": "/events-page/",
+      "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events-page.js",
+      "componentChunkName": "component---src-pages-events-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/events-page.js",
+      "id": "SitePage /events-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "664c8206b6117e1d3e8ee44c322091e8",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3069,7 +3133,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9c53baf55d87b38f009150919cb8d317",
+        "contentDigest": "d1be650b8c046fb660df107edf842403",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3090,7 +3154,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6ef97324f357c1fbab7165132c3600c1",
+        "contentDigest": "234b546e07b9f2f65966a9f811a72454",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3111,7 +3175,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e0eac0ccb1fdc22b0cb25d823ec1f9fe",
+        "contentDigest": "f2a3282336f5e8e670460ec7f5398bba",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3132,7 +3196,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6c5a8aeb9be6f41fc335f12eb35694ed",
+        "contentDigest": "4a7cb273b283a37e4078d07fcd240730",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3153,7 +3217,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3611de6453401e8daa9a5f7cb09669eb",
+        "contentDigest": "e90904b906158e5fc6b1e98436130db4",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3174,52 +3238,10 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a3b065bc24e78555b31ebe5856c72fb7",
+        "contentDigest": "e550716d626563cc26fac971e9d8305a",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
-    },
-    "C:/Users/AGCUSER/Desktop/shuffleph/src/cms absPath of file": {
-      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/cms absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a067acec3912fc25e3244ec0abe89814",
-        "type": "Directory",
-        "description": "Directory \"src\\cms\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/cms",
-      "relativePath": "cms",
-      "extension": "",
-      "size": 0,
-      "prettySize": "0 B",
-      "modifiedTime": "2018-06-19T01:51:35.192Z",
-      "accessTime": "2018-06-19T01:51:35.192Z",
-      "changeTime": "2018-06-19T01:51:35.192Z",
-      "birthTime": "2018-06-19T01:51:35.176Z",
-      "root": "C:/",
-      "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src",
-      "base": "cms",
-      "ext": "",
-      "name": "cms",
-      "relativeDirectory": "",
-      "dev": 585160515,
-      "mode": 16822,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 10133099161858522,
-      "atimeMs": 1529373095191.72,
-      "mtimeMs": 1529373095191.72,
-      "ctimeMs": 1529373095191.72,
-      "birthtimeMs": 1529373095176.0938,
-      "atime": "2018-06-19T01:51:35.192Z",
-      "mtime": "2018-06-19T01:51:35.192Z",
-      "ctime": "2018-06-19T01:51:35.192Z",
-      "birthtime": "2018-06-19T01:51:35.176Z"
     }
   },
   "status": {
@@ -3237,7 +3259,8 @@
         "/dev-404-page/"
       ],
       "MarkdownRemark": [
-        "/events/"
+        "/events/",
+        "/events-page/"
       ],
       "File": [
         "/my-files/"

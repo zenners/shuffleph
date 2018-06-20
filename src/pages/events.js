@@ -52,7 +52,7 @@ var date = Object.values(dates);
 //   // console.log("SECTION: ", index)
 //   item.map(i =>  i.date )
 // })
-
+const { edges: posts } = data.allMarkdownRemark
   return (
     <div>
      <Header />
@@ -67,7 +67,7 @@ var date = Object.values(dates);
         </div>
           <div className="col-md-6 mtop">
             <div className="event-container">
-            {data.allMarkdownRemark.edges.map(({ node }, index) => (
+            {data.allMarkdownRemark.edges.map(({ node, post }, index) => (
               <div key={node.id}>
               <div className="event-item tx-ma">
                 <div className={`${index == 0 ? 'h4' : 'd-display'} event-item tx-ma`}>
@@ -80,6 +80,9 @@ var date = Object.values(dates);
                 <h4 className="">{node.frontmatter.start} to {node.frontmatter.end}</h4>
                 <p className="tx-bl">{node.excerpt}</p><br />
                 <h4 className="tx-bl"><Link to='../'> LINK TO EVENT </Link> </h4>
+                <Link className="button is-small" to="../events-page">
+                  Keep Reading →
+                </Link>
                 <hr className="bg-og" />
               </div>
               </div>
