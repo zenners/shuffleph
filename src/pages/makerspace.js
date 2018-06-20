@@ -302,7 +302,7 @@ class MakerSpacePage extends Component {
 
 
   handleSubmit = values => {
-     fetch("/", {
+     fetch("https://shuffleph.netlify.com/makerspace/", {
        method: "POST",
        headers: { "Content-Type": "application/x-www-form-urlencoded" },
        body: encode(values,{"form-name": "contact"})
