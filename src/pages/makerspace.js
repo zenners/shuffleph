@@ -285,16 +285,12 @@ var is_weekend =  function(date1){
 }
 
 const apiUrl = 'https://9su5wlor3c.execute-api.ap-southeast-1.amazonaws.com/latest'
-const encode = (data) => {
-   return Object.keys(data)
-       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+const encode = (values) => {
+   return Object.keys(values)
+       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(values[key]))
        .join("&");
  }
 class MakerSpacePage extends Component {
-  constructor(props) {
-       super(props);
-       this.state = { name: "", email: "", message: "" };
-     }
 
   handleChange(values) { console.log(values) }
   handleUpdate(form) { console.log(form) }
