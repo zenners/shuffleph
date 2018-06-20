@@ -350,7 +350,7 @@ class MakerSpacePage extends Component {
             >
               </LocalForm>
                 <h3 className="title-head tx-ma no-pad"> Book our Makerspace </h3>
-                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={this.handleSubmit(values)}>
                   <input type="hidden" name="bot-field" />
                 <InfoSection />
                 <EventSec />
