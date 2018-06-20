@@ -210,7 +210,7 @@ const EventSec = () => (
             <p>P 6,000 </p>
           </Col>
           <Label sm={{size:4, offset: 2}} check>
-          <Control.radio model=".duration" value="half day"component={Radio}/>
+          <Control.radio model=".duration" value="pit stop"component={Radio}/>
               pit stop (1 hr)
             </Label>
             <Col sm={{size: 3}}>
