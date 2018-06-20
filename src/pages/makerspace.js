@@ -358,6 +358,7 @@ class MakerSpacePage extends Component {
 
 
   <form name="contactDetails" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contactDetails" />
               <Extrass/>
                  <button type="submit">Send</button>
   </form>
