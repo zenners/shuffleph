@@ -349,8 +349,8 @@ class MakerSpacePage extends Component {
               onSubmit={(values) => this.handleSubmit(values)}
             >
                 <h3 className="title-head tx-ma no-pad"> Book our Makerspace </h3>
-                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-                 <input type="hidden" name="form-name" value="contact" />  
+                <form name="contact" method="post" data-netlify="true" action="/success" data-netlify-honeypot="bot-field">
+                  <input type="hidden" name="bot-field" />
                 <InfoSection />
                 <EventSec />
                 <Layout />

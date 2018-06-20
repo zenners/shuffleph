@@ -1986,7 +1986,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "59a385d1b75eb2883202aca708396a4d",
+        "contentDigest": "aadf6fd8ca48ceb951aaa3376ad60811",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src\\pages\\makerspace.js\"",
@@ -1996,11 +1996,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/makerspace.js",
       "relativePath": "pages/makerspace.js",
       "extension": "js",
-      "size": 10340,
+      "size": 10341,
       "prettySize": "10.3 kB",
-      "modifiedTime": "2018-06-20T02:19:40.864Z",
+      "modifiedTime": "2018-06-20T02:31:22.890Z",
       "accessTime": "2018-06-18T08:42:02.610Z",
-      "changeTime": "2018-06-20T02:19:40.864Z",
+      "changeTime": "2018-06-20T02:31:22.890Z",
       "birthTime": "2018-06-18T08:42:02.610Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
@@ -2016,12 +2016,12 @@
       "rdev": 0,
       "ino": 1688849860889832,
       "atimeMs": 1529311322609.6936,
-      "mtimeMs": 1529461180864.0488,
-      "ctimeMs": 1529461180864.0488,
+      "mtimeMs": 1529461882890.3333,
+      "ctimeMs": 1529461882890.3333,
       "birthtimeMs": 1529311322609.6936,
       "atime": "2018-06-18T08:42:02.610Z",
-      "mtime": "2018-06-20T02:19:40.864Z",
-      "ctime": "2018-06-20T02:19:40.864Z",
+      "mtime": "2018-06-20T02:31:22.890Z",
+      "ctime": "2018-06-20T02:31:22.890Z",
       "birthtime": "2018-06-18T08:42:02.610Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/my-files.js absPath of file": {
@@ -3240,6 +3240,27 @@
         "type": "SitePage",
         "contentDigest": "e550716d626563cc26fac971e9d8305a",
         "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /success/": {
+      "layout": "index",
+      "jsonName": "success.json",
+      "internalComponentName": "ComponentSuccess",
+      "path": "/success/",
+      "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/success.js",
+      "componentChunkName": "component---src-pages-success-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/success.js",
+      "id": "SitePage /success/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "442f4f67b819384ae3eae33a332f6475",
+        "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
     }
