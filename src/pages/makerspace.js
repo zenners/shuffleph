@@ -274,6 +274,26 @@ const Extras = () => (
   </FormSection>
 )
 
+
+const Extrass = () => (
+
+<div>
+
+      <p>
+       <label>Name: <input type="text" name="name" /></label>
+      </p>
+      <p>
+      <label>Phone: <input type="phone" name="phone" /></label>
+      </p>
+      <p>
+       <label>Email: <input type="email" name="email" /></label>
+      </p>
+
+
+                  </div>
+)
+
+
 var is_weekend =  function(date1){
     var dt = new Date(date1);
     console.log(dt.getDay())
@@ -310,22 +330,6 @@ class MakerSpacePage extends Component {
    };
 
 
-  //
-  //     const url = 'https://formspree.io/dackalacbayo@gmail.com'
-  //     // const config = { headers: {
-  //     //   'Content-Type': 'application/x-www-form-urlencoded',
-  //     //  }};
-  //         axios.post(url, values)
-  //         .then(response => console.log(response))
-  //         .catch(errors => console.log(errors));
-  //
-  //   // const url = `${apiUrl}/api/events`
-  //   // axios.post(url, values)
-  //   //   .then((res) => console.log(res))
-  //   //   .catch((err) => console.log(err))
-  // }
-
-
   handleSubmitFailed(userForm) {
     // logs form-level errors
     console.log(userForm.$form.errors);
@@ -345,16 +349,18 @@ class MakerSpacePage extends Component {
               onSubmit={(values) => this.handleSubmit(values)}
             >
                 <h3 className="title-head tx-ma no-pad"> Book our Makerspace </h3>
-                <form name="contactDetails" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-                  <input type="hidden" name="form-name" value="contactDetails" />
-                  <InfoSection />
-                  <EventSec />
-                  <Layout />
-                  <Extras />
+                  <InfoSection/>
+                  <EventSec/>
+                  <Layout/>
+                  <Extras/>
                   <Button className="bg-ma tx-og"block>Submit</Button>
-                </form>
             </LocalForm>
 
+
+  <form name="contactDetails" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+              <Extrass/>
+                 <button type="submit">Send</button>
+  </form>
           </div>
           <div className="col-md-6 no-pad">
             <div className="d-flex flex-column">
