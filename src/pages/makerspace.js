@@ -305,7 +305,7 @@ class MakerSpacePage extends Component {
      fetch("/", {
        method: "POST",
        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-       body: encode(values)
+       body: encode(values,{"form-name": "contact"})
      })
        .then(() => alert("Success!"))
        .catch(error => alert(error));
@@ -313,7 +313,7 @@ class MakerSpacePage extends Component {
      // e.preventDefault();
    };
 
-  // handleSubmit(values) {
+  
   //
   //     const url = 'https://formspree.io/dackalacbayo@gmail.com'
   //     // const config = { headers: {
