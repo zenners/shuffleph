@@ -79,10 +79,8 @@ const { edges: posts } = data.allMarkdownRemark
                 <h3 className={`small italic`}> with {node.frontmatter.by}</h3>
                 <h4 className="">{node.frontmatter.start} to {node.frontmatter.end}</h4>
                 <p className="tx-bl">{node.excerpt}</p><br />
-                <h4 className="tx-bl"><Link to='../'> LINK TO EVENT </Link> </h4>
-                <Link className="button is-small" to="../events-page">
-                  Keep Reading →
-                </Link>
+                <h4 className="tx-bl"><Link to="../events-page"> LINK TO EVENT </Link> </h4>
+          
                 <hr className="bg-og" />
               </div>
               </div>
