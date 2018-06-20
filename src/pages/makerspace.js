@@ -359,6 +359,19 @@ class MakerSpacePage extends Component {
                 </form>
             </LocalForm>
 
+            <form name="contacts" method="POST" netlify>
+  <label>What is your name?
+    <input name="full-name" type="text" placeholder="Your full name" required/>
+  </label>
+  <label>What is your email address?
+    <input name="email-address" type="email" placeholder="Your email" required/>
+  </label>
+  <label>What your message?
+    <textarea name="message" type="text" placeholder="Your message..." required></textarea>
+  </label>
+    <button type="submit" value="Submit" id="Form-submit">Submit</button>
+</form>
+
 
           </div>
           <div className="col-md-6 no-pad">
