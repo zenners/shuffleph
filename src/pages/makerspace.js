@@ -302,7 +302,7 @@ class MakerSpacePage extends Component {
 
 
   handleSubmit = values => {
-     fetch("https://shuffleph.netlify.com/makerspace/", {
+     fetch("/", {
        method: "POST",
        headers: { "Content-Type": "application/x-www-form-urlencoded" },
        body: encode(values,{"form-name": "contact"})
@@ -349,12 +349,12 @@ class MakerSpacePage extends Component {
               onSubmit={(values) => this.handleSubmit(values)}
             >
                 <h3 className="title-head tx-ma no-pad"> Book our Makerspace </h3>
-                <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                   <input type="hidden" name="form-name" value="contact" />
-                <InfoSection />
-                <EventSec />
-                <Layout />
-                <Extras />
+                <InfoSection onChange={(values) => this.handleChange(values)}/>
+                <EventSec onChange={(values) => this.handleChange(values)}/>
+                <Layout onChange={(values) => this.handleChange(values)}/>
+                <Extras onChange={(values) => this.handleChange(values)}/>
                 <Button className="bg-ma tx-og"block>Submit</Button>
                 </form>
             </LocalForm>
