@@ -349,7 +349,7 @@ class MakerSpacePage extends Component {
               onSubmit={(values) => this.handleSubmit(values)}
             >
                 <h3 className="title-head tx-ma no-pad"> Book our Makerspace </h3>
-                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" netlify>
                   <input type="hidden" name="form-name" value="contact" />
                 <InfoSection onChange={(values) => this.handleChange(values)}/>
                 <EventSec onChange={(values) => this.handleChange(values)}/>
