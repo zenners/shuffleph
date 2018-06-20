@@ -274,26 +274,6 @@ const Extras = () => (
   </FormSection>
 )
 
-
-const Extrass = () => (
-
-<div>
-
-      <p>
-       <label>Name: <input type="text" name="name" /></label>
-      </p>
-      <p>
-      <label>Phone: <input type="phone" name="phone" /></label>
-      </p>
-      <p>
-       <label>Email: <input type="email" name="email" /></label>
-      </p>
-
-
-                  </div>
-)
-
-
 var is_weekend =  function(date1){
     var dt = new Date(date1);
     console.log(dt.getDay())
@@ -357,11 +337,6 @@ class MakerSpacePage extends Component {
             </LocalForm>
 
 
-  <form name="contactDetails" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-  <input type="hidden" name="form-name" value="contactDetails" />
-              <Extrass/>
-                 <button type="submit">Send</button>
-  </form>
           </div>
           <div className="col-md-6 no-pad">
             <div className="d-flex flex-column">
