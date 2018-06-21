@@ -84,7 +84,7 @@ const InfoSection = () => (
     <FormGroup row>
       <Label for="exampleEmail" sm={2}>name</Label>
       <Col sm={10}>
-        <Control.input
+        <Control.text
           model=".name"
           placeholder="Juan"
           name="name"
@@ -96,7 +96,7 @@ const InfoSection = () => (
     <FormGroup row>
       <Label for="exampleEmail" sm={2}>phone</Label>
       <Col sm={10}>
-        <Control.input
+        <Control.text
           model=".phone"
           placeholder="+639178905643"
           name="phone"
@@ -108,34 +108,11 @@ const InfoSection = () => (
     <FormGroup row>
       <Label for="exampleEmail" sm={2}>email</Label>
       <Col sm={10}>
-        <Control.input
+        <Control.text
           model=".email"
           required
           component={email}
         />
-      </Col>
-    </FormGroup>
-  </FormSection>
-)
-
-const InfoSections = () => (
-  <FormSection   subtitle='info'>
-    <FormGroup row>
-      <Label for="exampleEmail" sm={2}>name</Label>
-      <Col sm={10}>
-      <Input type="text" name="name" placeholder="Juan" required/>
-      </Col>
-    </FormGroup>
-    <FormGroup row>
-      <Label for="exampleEmail" sm={2}>phone</Label>
-      <Col sm={10}>
-      <Input type="text" name="phone" placeholder="+639178905643" required/>
-      </Col>
-    </FormGroup>
-    <FormGroup row>
-      <Label for="exampleEmail" sm={2}>email</Label>
-      <Col sm={10}>
-      <Input type="text" name="email" />
       </Col>
     </FormGroup>
   </FormSection>
@@ -351,15 +328,13 @@ class MakerSpacePage extends Component {
               onChange={(values) => this.handleChange(values)}
               onSubmit={(values) => this.handleSubmit(values)}
             >
-            <form name="contactDetails" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="contactDetails" />
                 <h3 className="title-head tx-ma no-pad"> Book our Makerspace </h3>
                   <InfoSection/>
-
+                  <EventSec/>
+                  <Layout/>
+                  <Extras/>
                   <Button className="bg-ma tx-og"block>Submit</Button>
-                  </form>
             </LocalForm>
-
 
 
           </div>
