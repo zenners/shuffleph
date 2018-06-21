@@ -118,29 +118,6 @@ const InfoSection = () => (
   </FormSection>
 )
 
-const InfoSections = () => (
-  <FormSection   subtitle='info'>
-    <FormGroup row>
-      <Label for="exampleEmail" sm={2}>name</Label>
-      <Col sm={10}>
-      <Input type="text" name="name" />
-      </Col>
-    </FormGroup>
-    <FormGroup row>
-      <Label for="exampleEmail" sm={2}>phone</Label>
-      <Col sm={10}>
-      <Input type="text" name="phone" />
-      </Col>
-    </FormGroup>
-    <FormGroup row>
-      <Label for="exampleEmail" sm={2}>email</Label>
-      <Col sm={10}>
-      <Input type="text" name="email" />
-      </Col>
-    </FormGroup>
-  </FormSection>
-)
-
 const EventSec = () => (
   <FormSection subtitle='event'>
     <FormGroup row>
@@ -359,11 +336,6 @@ class MakerSpacePage extends Component {
                   <Button className="bg-ma tx-og"block>Submit</Button>
             </LocalForm>
 
- <form name="contactDetails" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-   <input type="hidden" name="form-name" value="contactDetails" />
-            <InfoSections/>
-            <Button className="bg-ma tx-og"block>Submit</Button>
-</form>
 
           </div>
           <div className="col-md-6 no-pad">
