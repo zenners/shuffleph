@@ -86,9 +86,7 @@ const { edges: posts } = data.allMarkdownRemark
             <div className="event-container">
 
 
-            {data.allMarkdownRemark.edges.map(({ node}, index) => (
-              <div key={node.id}>
-
+              <div>
               <div className="text-center col-vh-abt">
               <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
@@ -98,13 +96,13 @@ const { edges: posts } = data.allMarkdownRemark
                 </ol>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img className="d-block w-100" src="..." alt="First slide"/>
+                    <img className="d-block w-100" src={img} alt="First slide"/>
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src="..." alt="Second slide"/>
+                    <img className="d-block w-100" src={img} alt="Second slide"/>
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src="..." alt="Third slide"/>
+                    <img className="d-block w-100" src={img} alt="Third slide"/>
                   </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -117,22 +115,15 @@ const { edges: posts } = data.allMarkdownRemark
                 </a>
                 </div>
               </div>
-              <div className="event-item tx-ma">
-                <div className={`${index == 0 ? 'h4' : 'd-display'} event-item tx-ma`}>
-                  {date[index].map(item => <h2 className={`initialism bold all-caps mr-2 text-left list-inline-item `}><li>{item.date}</li></h2>)}
-                </div>
-
-                <h3 className={`small italic`}> with {node.frontmatter.by}</h3>
-                <h4 className="">{node.frontmatter.start} to {node.frontmatter.end}</h4>
-                <p className="tx-bl">{node.excerpt}</p><br />
-                <h4 className="tx-bl"><Link to='../'> LINK TO EVENT </Link> </h4>
-                <Link className="button is-small" to="../events-page">
-                  Keep Reading →
-                </Link>
+              <div className="event-item tx-ma mt-5 pt-5">
+                <p className="tx-bl">Learn this Marikina specialized craft with ThePaperPlaneProjectMNL as we pattern,
+                cut and stitch coin holders, key holders and cord organizers.  Pick up the different techniques on how
+                people create different products and the basic do's and don'ts of leather smithing!
+                </p><br />
                 <hr className="bg-og" />
               </div>
               </div>
-            ))}
+  
           </div>
         <div>
       </div>

@@ -301,6 +301,7 @@ class MakerSpacePage extends Component {
               name="makerspaceDetails"
               method="POST"
               data-netlify="true"
+              action="/thanks/"
               data-netlify-honeypot="bot-field"
             >
               <input type="hidden" name="form-name" value="makerspaceDetails" />

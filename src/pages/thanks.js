@@ -1,8 +1,20 @@
 import React from "react";
 
+
 export default () => (
-  <div>
-    <h1>Thank you!</h1>
-    <p>This is a custom thank you page for form submissions</p>
+  <div className="container main py-5">
+    <div className="panel">
+      <div className="header">
+        <h1>Thank You!</h1>
+      </div>
+      <div className="body">
+
+        <p className="lead">Your form submission has been received.</p>
+
+        <p>
+          <a id="back-link" href="/">← Back to our site</a>
+        </p>
+      </div>
+    </div>
   </div>
 );
