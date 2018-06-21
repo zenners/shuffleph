@@ -276,6 +276,154 @@ const Extras = () => (
 )
 
 
+const InfoSections = () => (
+  <FormSection   subtitle='info'>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>name</Label>
+      <Col sm={10}>
+      <Input type="text" name="name" placeholder="Juan"  required/>
+      </Col>
+    </FormGroup>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>phone</Label>
+      <Col sm={10}>
+      <Input type="text" name="phone" placeholder="+639178905643" required/>
+      </Col>
+    </FormGroup>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>email</Label>
+      <Col sm={10}>
+      <Input type="text" name="email" placeholder="hello@shuffle.ph" required/>
+      </Col>
+    </FormGroup>
+  </FormSection>
+)
+
+const EventSecs = () => (
+  <FormSection subtitle='event'>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>date</Label>
+      <Col sm={10}>
+      <Input type="date" name="date" required/>
+      </Col>
+    </FormGroup>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>time</Label>
+      <Col sm={5}>
+      <Input type="time" name="timeStart"required/>
+      </Col>
+      <Label for="exampleEmail" sm={1}>to</Label>
+      <Col sm={4}>
+      <Input type="time" name="timEnd"required/>
+      </Col>
+    </FormGroup>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>no. of people</Label>
+      <Col sm={10}>
+      <Input type="number" name="pax" placeholder="10" required/>
+      </Col>
+    </FormGroup>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>type of event</Label>
+      <Col sm={10}>
+      <Input type="text" name="type" placeholder="Yoga Class" required/>
+      </Col>
+    </FormGroup>
+    <FormGroup className=""  row>
+      <Col sm={{size: 3, offset: 6}}>
+        Weekday
+      </Col>
+      <Col sm={3}>
+        Weekend
+      </Col>
+    </FormGroup>
+    <FormGroup className=""  row>
+
+    <Label for="exampleEmail" sm={2}>no. of hours</Label>
+      <Label sm={4} check>
+      <Input type="radio" name="duration" value="whole day" required/>
+          whole day (10 hrs)
+        </Label>
+        <Col sm={{size: 3}}>
+          <p>P 8,500 </p>
+        </Col>
+        <Col sm={{size: 3}}>
+          <p>P 9,500 </p>
+        </Col>
+        <Label sm={{size:4, offset: 2}} check>
+        <Input type="radio" name="duration" value="half day" required/>
+            half day (4 hrs)
+          </Label>
+          <Col sm={{size: 3}}>
+            <p>P 5,000 </p>
+          </Col>
+          <Col sm={{size: 3}}>
+            <p>P 6,000 </p>
+          </Col>
+          <Label sm={{size:4, offset: 2}} check>
+          <Input type="radio" name="duration" value="pit stop" required/>
+              pit stop (1 hr)
+            </Label>
+            <Col sm={{size: 3}}>
+              <p>P 1,500 </p>
+            </Col>
+            <Col sm={{size: 3}}>
+              <p>P 2,000 </p>
+            </Col>
+    </FormGroup>
+  </FormSection>
+)
+
+const Extrass = () => (
+  <FormSection subtitle="Extras">
+    <FormGroup  check row>
+      <Label sm={12} check>
+      <Input type="radio" name="addOns" value="food (10 pax)" required/>
+        {' '}
+        food (good for 10) - 2500
+      </Label>
+    </FormGroup>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={4}>other requests</Label>
+      <Col sm={8}>
+      <Input type="textarea" name="notes" required/>
+      </Col>
+    </FormGroup>
+  </FormSection>
+)
+
+const Layouts = () => (
+  <FormSection subtitle='Layout'>
+    <h4 className="instrc italic"> Select type of package or shuffle the space </h4>
+    <FormGroup check row>
+      {layoutopts.map((opt) => (
+        <Label className="text-mobile-align" sm={6} check>
+        <Input type="radio" name="setup" value={opt.title} required/>
+          {' '}
+          THE <span className="h4 bold">{opt.title}</span>
+          <div className="ms-options">
+            <img src={opt.src} />
+            <p> {opt.desc} </p>
+            <p> {opt.subdesc} </p>
+          </div>
+
+        </Label>
+      ))}
+    </FormGroup>
+    <FormGroup className="text-mobile-align"  check row>
+      <Label sm={12} check>
+      <Input type="radio" name="setup" value="custom" required/>
+      {' '}
+        THE <span className="h4 bold">Shuffle</span>
+      </Label>
+      <Col sm={12}>
+        upload an image of your preferred layout <br/><br/>
+        <Input type="file" name="file" required/>
+      </Col>
+    </FormGroup>
+  </FormSection>
+)
+
 var is_weekend =  function(date1){
     var dt = new Date(date1);
     console.log(dt.getDay())
@@ -337,6 +485,15 @@ class MakerSpacePage extends Component {
                   <Extras/>
                   <Button className="bg-ma tx-og"block>Submit</Button>
             </LocalForm>
+
+ <form name="contactDetails" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+   <input type="hidden" name="form-name" value="contactDetails" />
+            <InfoSections/>
+              <EventSecs/>
+              <Layouts/>
+              <Extrass/>
+            <Button className="bg-ma tx-og"block>Submit</Button>
+</form>
 
           </div>
           <div className="col-md-6 no-pad">
