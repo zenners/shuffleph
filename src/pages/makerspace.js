@@ -110,6 +110,7 @@ const InfoSection = () => (
       <Col sm={10}>
         <Control.input
           model=".email"
+          name="email"
           required
           component={email}
         />
@@ -294,22 +295,28 @@ const encode = (data) => {
  }
 class MakerSpacePage extends Component {
 
-  handleChange(values) { console.log(values) }
+  constructor(props) {
+    super(props);
+    this.state = { name: "", email: "", message: "" };
+  }
+
+  // handleChange(values) { console.log(values) }
   handleUpdate(form) { console.log(form) }
 
 
+      handleSubmit = e => {
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", ...this.state })
+        })
+          .then(() => alert("Success!"))
+          .catch(error => alert(error));
 
-  handleSubmit = values => {
-     fetch("/", {
-       method: "POST",
-       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-       body: encode(values,{"form-name": "contact"})
-     })
-       .then(() => alert("Success!"))
-       .catch(error => alert(error));
+        e.preventDefault();
+      };
 
-     // e.preventDefault();
-   };
+      handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
 
   handleSubmitFailed(userForm) {
@@ -320,34 +327,28 @@ class MakerSpacePage extends Component {
     console.log(userForm.email.errors);
   }
   render(){
+     const { name, email, message } = this.state;
     return(
-      <div>
-       <Header />
-        <div className="flex-wrap row-eq-height">
-          <div className="col-md-6 content-body form-container mtop">
-            <LocalForm
-              onUpdate={(form) => this.handleUpdate(form)}
-              onChange={(values) => this.handleChange(values)}
-              onSubmit={(values) => this.handleSubmit(values)}
-            >
-                <h3 className="title-head tx-ma no-pad"> Book our Makerspace </h3>
-                  <InfoSection/>
-                  <EventSec/>
-                  <Layout/>
-                  <Extras/>
-                  <Button className="bg-ma tx-og"block>Submit</Button>
-            </LocalForm>
-
-          </div>
-          <div className="col-md-6 no-pad">
-            <div className="d-flex flex-column">
-              {menu.map((item) => (
-                <MenuItem title={item.title} styles={item.styles} path={item.path} isActive={item.isActive} />
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+      <form onSubmit={this.handleSubmit}>
+          <p>
+            <label>
+              Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message: <textarea name="message" value={message} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
     )
   }
 }
