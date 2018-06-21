@@ -11,7 +11,8 @@ exports.components = {
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\index.js"),
   "component---src-pages-makerspace-js": require("gatsby-module-loader?name=component---src-pages-makerspace-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\makerspace.js"),
   "component---src-pages-my-files-js": require("gatsby-module-loader?name=component---src-pages-my-files-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\my-files.js"),
-  "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\page-2.js")
+  "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\page-2.js"),
+  "component---src-pages-thanks-js": require("gatsby-module-loader?name=component---src-pages-thanks-js!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\thanks.js")
 }
 
 exports.json = {
@@ -26,6 +27,7 @@ exports.json = {
   "makerspace.json": require("gatsby-module-loader?name=path---makerspace!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\makerspace.json"),
   "my-files.json": require("gatsby-module-loader?name=path---my-files!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\my-files.json"),
   "page-2.json": require("gatsby-module-loader?name=path---page-2!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\page-2.json"),
+  "thanks.json": require("gatsby-module-loader?name=path---thanks!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\thanks.json"),
   "404-html.json": require("gatsby-module-loader?name=path---404-html!C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\404-html.json")
 }
 

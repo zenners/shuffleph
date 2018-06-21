@@ -16,7 +16,8 @@ exports.components = {
   "component---src-pages-index-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\index.js")),
   "component---src-pages-makerspace-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\makerspace.js")),
   "component---src-pages-my-files-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\my-files.js")),
-  "component---src-pages-page-2-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\page-2.js"))
+  "component---src-pages-page-2-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\page-2.js")),
+  "component---src-pages-thanks-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\src\\pages\\thanks.js"))
 }
 
 exports.json = {
@@ -31,5 +32,6 @@ exports.json = {
   "makerspace.json": require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\makerspace.json"),
   "my-files.json": require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\my-files.json"),
   "page-2.json": require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\page-2.json"),
+  "thanks.json": require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\thanks.json"),
   "404-html.json": require("C:\\Users\\AGCUSER\\Desktop\\shuffleph\\.cache\\json\\404-html.json")
 }

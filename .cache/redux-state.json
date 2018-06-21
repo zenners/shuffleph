@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a08a63816fcbaede591cb8e892923af3",
+        "contentDigest": "587a0d429ea0b102a0f514c8fe5c5849",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -734,12 +734,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-20T02:33:57.540Z",
+      "buildTime": "2018-06-21T00:34:26.713Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f95c6d2dd89e34eada78022b18e71088",
+        "contentDigest": "34b4bf2be6d54f20d699f514b7c408ae",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -959,7 +959,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5ce63ab2cdf485cdf3e882ec6e612ed0",
+        "contentDigest": "5ff7d7db276e97f6f189c91b23f2e666",
         "type": "Directory",
         "description": "Directory \"src\\pages\"",
         "owner": "gatsby-source-filesystem"
@@ -970,9 +970,9 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-06-20T02:32:48.844Z",
-      "accessTime": "2018-06-20T02:32:48.844Z",
-      "changeTime": "2018-06-20T02:32:48.844Z",
+      "modifiedTime": "2018-06-21T00:33:08.140Z",
+      "accessTime": "2018-06-21T00:33:08.140Z",
+      "changeTime": "2018-06-21T00:33:08.140Z",
       "birthTime": "2018-06-18T08:42:02.600Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src",
@@ -987,13 +987,13 @@
       "gid": 0,
       "rdev": 0,
       "ino": 1688849860889821,
-      "atimeMs": 1529461968843.7651,
-      "mtimeMs": 1529461968843.7651,
-      "ctimeMs": 1529461968843.7651,
+      "atimeMs": 1529541188139.9424,
+      "mtimeMs": 1529541188139.9424,
+      "ctimeMs": 1529541188139.9424,
       "birthtimeMs": 1529311322599.6833,
-      "atime": "2018-06-20T02:32:48.844Z",
-      "mtime": "2018-06-20T02:32:48.844Z",
-      "ctime": "2018-06-20T02:32:48.844Z",
+      "atime": "2018-06-21T00:33:08.140Z",
+      "mtime": "2018-06-21T00:33:08.140Z",
+      "ctime": "2018-06-21T00:33:08.140Z",
       "birthtime": "2018-06-18T08:42:02.600Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/components/Footer absPath of file": {
@@ -1986,7 +1986,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a7f0ec428bf5ab327f0961f1290937ba",
+        "contentDigest": "3c915856bd95a609aeee2d0dfb8a5b01",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src\\pages\\makerspace.js\"",
@@ -1996,11 +1996,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/makerspace.js",
       "relativePath": "pages/makerspace.js",
       "extension": "js",
-      "size": 9483,
-      "prettySize": "9.48 kB",
-      "modifiedTime": "2018-06-20T09:57:00.604Z",
+      "size": 10350,
+      "prettySize": "10.3 kB",
+      "modifiedTime": "2018-06-21T00:54:57.784Z",
       "accessTime": "2018-06-18T08:42:02.610Z",
-      "changeTime": "2018-06-20T09:57:00.604Z",
+      "changeTime": "2018-06-21T00:54:57.784Z",
       "birthTime": "2018-06-18T08:42:02.610Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
@@ -2016,12 +2016,12 @@
       "rdev": 0,
       "ino": 1688849860889832,
       "atimeMs": 1529311322609.6936,
-      "mtimeMs": 1529488620603.8171,
-      "ctimeMs": 1529488620603.8171,
+      "mtimeMs": 1529542497784.2092,
+      "ctimeMs": 1529542497784.2092,
       "birthtimeMs": 1529311322609.6936,
       "atime": "2018-06-18T08:42:02.610Z",
-      "mtime": "2018-06-20T09:57:00.604Z",
-      "ctime": "2018-06-20T09:57:00.604Z",
+      "mtime": "2018-06-21T00:54:57.784Z",
+      "ctime": "2018-06-21T00:54:57.784Z",
       "birthtime": "2018-06-18T08:42:02.610Z"
     },
     "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/my-files.js absPath of file": {
@@ -3033,6 +3033,49 @@
       "ctime": "2018-06-19T02:41:30.453Z",
       "birthtime": "2018-06-19T02:20:57.331Z"
     },
+    "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/thanks.js absPath of file": {
+      "id": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/thanks.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8313e471c8b26a9299026392fc8b2be2",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src\\pages\\thanks.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/thanks.js",
+      "relativePath": "pages/thanks.js",
+      "extension": "js",
+      "size": 167,
+      "prettySize": "167 B",
+      "modifiedTime": "2018-06-21T00:33:10.518Z",
+      "accessTime": "2018-06-21T00:33:08.140Z",
+      "changeTime": "2018-06-21T00:33:10.518Z",
+      "birthTime": "2018-06-21T00:33:08.140Z",
+      "root": "C:/",
+      "dir": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages",
+      "base": "thanks.js",
+      "ext": ".js",
+      "name": "thanks",
+      "relativeDirectory": "pages",
+      "dev": 585160515,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 25895697857610960,
+      "atimeMs": 1529541188139.9424,
+      "mtimeMs": 1529541190518.0671,
+      "ctimeMs": 1529541190518.0671,
+      "birthtimeMs": 1529541188139.9424,
+      "atime": "2018-06-21T00:33:08.140Z",
+      "mtime": "2018-06-21T00:33:10.518Z",
+      "ctime": "2018-06-21T00:33:10.518Z",
+      "birthtime": "2018-06-21T00:33:08.140Z"
+    },
     "SitePage /404/": {
       "layout": "index",
       "jsonName": "404.json",
@@ -3049,7 +3092,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6170b46bd7f6675b6f1661ac52b033f9",
+        "contentDigest": "6fc037ebd09e376eb3f6ffe50a379d06",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3070,7 +3113,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e7562a9ad172ad49362fc6cd19315d0d",
+        "contentDigest": "a3fa8c7d9af4dda36c7ec75c2fcb54df",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3091,7 +3134,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cc28b98ad05cbc0bd03660cc557d00af",
+        "contentDigest": "76d3494533fd79c57d982f030a48ef92",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3112,7 +3155,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5cfa4a7421f4ee8a19ca26376780059e",
+        "contentDigest": "04a6a610bf6a60564753b236be695f28",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3133,7 +3176,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8c0875b7f1a1639a21b63f2a5770aa70",
+        "contentDigest": "e1633d437f83a2adeb2cdea048e5cdfb",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3154,7 +3197,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fb13b88fa669d89a2d35730222ec608d",
+        "contentDigest": "56512b4aef8014c1a27f1e27b116da61",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3175,7 +3218,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c390205229ca843dae99989d5983d76d",
+        "contentDigest": "5b8f9b15ec861edb89ef10ae7da37514",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3196,7 +3239,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4d11cfb54658994673a73da930f8c638",
+        "contentDigest": "f51a3212952aaf0c7e33379a983c654a",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3217,7 +3260,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1fc99f0bd7315536cf136a7c3496df68",
+        "contentDigest": "958312f854c09171c75039a6b25bbb16",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /thanks/": {
+      "layout": "index",
+      "jsonName": "thanks.json",
+      "internalComponentName": "ComponentThanks",
+      "path": "/thanks/",
+      "component": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/thanks.js",
+      "componentChunkName": "component---src-pages-thanks-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/shuffleph/src/pages/thanks.js",
+      "id": "SitePage /thanks/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ff75cd0326a80892b3a3d926fdd91204",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3238,7 +3302,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d2242028aef97e0f75ebbe42a4df66f8",
+        "contentDigest": "cebca5fef2f9fbccc4b7bcfad8489167",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
