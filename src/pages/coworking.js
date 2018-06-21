@@ -72,11 +72,10 @@ const FormSection = ({subtitle, children}) => (
 function renderOptions(opts){
   return opts.map((opt) => {
     return (
-
-      <FormGroup>
+      <FormGroup className="renderOptions">
         <Label className="row" >
           <Col xs={4}>
-            <Control model=".passType" component={Radio} name="passtype" value={opt.title} />
+              <Input type="radio" name="passtype" value={opt.title} required />
             {opt.title}
           </Col>
           <Col xs={{size: 4}}>
@@ -86,37 +85,34 @@ function renderOptions(opts){
             <p>P {opt.price}</p>
           </Col>
         </Label>
-
       </FormGroup>
 
     )
   })
 }
+const info = [
+  { name: "name", placeholder: "Juan" },
+  { name: "phone", placeholder: "+639178905643" },
+  { name: "email", placeholder: "hello@shuffle.ph" }
+];
+
 const InfoSection = () => (
-  <FormSection   subtitle='info'>
-    <FormGroup row>
-      <Label for="exampleEmail" sm={2}>name</Label>
-      <Col sm={10}>
-        <Control model=".name" component={Basic} placeholder="Juan" />
-      </Col>
-    </FormGroup>
-    <FormGroup row>
-      <Label for="exampleEmail" sm={2}>phone</Label>
-      <Col sm={10}>
-        <Control model=".phone" component={Basic} placeholder="+639176738977"/>
-      </Col>
-    </FormGroup>
-    <FormGroup row>
-      <Label for="exampleEmail" sm={2}>email</Label>
-      <Col sm={10}>
-        <Control model=".email" component={Basic} placeholder="hello@shuffle.ph" />
-      </Col>
-    </FormGroup>
+  <FormSection subtitle="info">
+    {info.map(row => (
+      <FormGroup row>
+        <Label for="exampleEmail" sm={2}>
+          {row.name}
+        </Label>
+        <Col sm={10}>
+          <Input key={row.name} {...row} required />
+        </Col>
+      </FormGroup>
+    ))}
   </FormSection>
-)
+);
 
 const PassType = () => (
-    <FormSection   subtitle='Pass Type'>
+    <FormSection subtitle='Pass Type'>
 
       {renderOptions(options)}
 
@@ -140,18 +136,21 @@ class Coworking extends Component {
        <Header />
         <div className="flex-wrap row-eq-height">
           <div className="col-md-6 content-body form-container cnt-size mtop">
-          <LocalForm
-            onUpdate={(form) => this.handleUpdate(form)}
-            onChange={(values) => this.handleChange(values)}
-            onSubmit={(values) => this.handleSubmit(values)}
+          <form
+            name="coWorkingDetails"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
           >
+            <input type="hidden" name="form-name" value="coWorkingDetails" />
             <MakerForm>
               <InfoSection />
               <PassType />
-              <Button className="bg-ma tx-og mt-5"block>Submit</Button>
+              <Button className="bg-ma tx-og mt-4" block>
+                Submit
+              </Button>
             </MakerForm>
-          </LocalForm>
-
+          </form>
 
           </div>
           <div className="col-md-6 no-pad ">
