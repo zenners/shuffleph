@@ -84,7 +84,7 @@ const InfoSection = () => (
     <FormGroup row>
       <Label for="exampleEmail" sm={2}>name</Label>
       <Col sm={10}>
-        <Control.text
+        <Control.input
           model=".name"
           placeholder="Juan"
           name="name"
@@ -108,7 +108,7 @@ const InfoSection = () => (
     <FormGroup row>
       <Label for="exampleEmail" sm={2}>email</Label>
       <Col sm={10}>
-        <Control.text
+        <Control.input
           model=".email"
           required
           component={email}
@@ -117,6 +117,7 @@ const InfoSection = () => (
     </FormGroup>
   </FormSection>
 )
+
 
 const EventSec = () => (
   <FormSection subtitle='event'>
@@ -274,6 +275,30 @@ const Extras = () => (
   </FormSection>
 )
 
+
+const InfoSections = () => (
+  <FormSection   subtitle='info'>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>name</Label>
+      <Col sm={10}>
+      <Input type="text" name="name" placeholder="Juan"  required/>
+      </Col>
+    </FormGroup>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>phone</Label>
+      <Col sm={10}>
+      <Input type="text" name="phone" placeholder="+639178905643" required/>
+      </Col>
+    </FormGroup>
+    <FormGroup row>
+      <Label for="exampleEmail" sm={2}>email</Label>
+      <Col sm={10}>
+      <Input type="text" name="email" placeholder="hello@shuffle.ph" required/>
+      </Col>
+    </FormGroup>
+  </FormSection>
+)
+
 var is_weekend =  function(date1){
     var dt = new Date(date1);
     console.log(dt.getDay())
@@ -323,6 +348,8 @@ class MakerSpacePage extends Component {
        <Header />
         <div className="flex-wrap row-eq-height">
           <div className="col-md-6 content-body form-container mtop">
+          <form name="contactDetails" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contactDetails" />
             <LocalForm
               onUpdate={(form) => this.handleUpdate(form)}
               onChange={(values) => this.handleChange(values)}
@@ -335,6 +362,7 @@ class MakerSpacePage extends Component {
                   <Extras/>
                   <Button className="bg-ma tx-og"block>Submit</Button>
             </LocalForm>
+</form>
 
 
           </div>
