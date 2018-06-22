@@ -4,7 +4,7 @@ import MenuItem from '../components/Menuitem'
 import Header from '../components/Header'
 import logo from '../Group 40-min.png'
 import '../layouts/style.css'
-import data from '../content/event'
+
 
 
 const menu = [
@@ -45,13 +45,14 @@ var dates = data.allMarkdownRemark.edges.map((item)=>{
    return item.dates})
 
 var date = Object.values(dates);
+// console.log("date",date);
 
-
-date.map((item, index) => {
-  // console.log("SECTION: ", index)
-  item.map(i =>  i.date )
-})
-
+//
+// date.map((item, index) => {
+//   // console.log("SECTION: ", index)
+//   item.map(i =>  i.date )
+// })
+const { edges: posts } = data.allMarkdownRemark
   return (
     <div>
      <Header />
@@ -66,7 +67,7 @@ date.map((item, index) => {
         </div>
           <div className="col-md-6 mtop">
             <div className="event-container">
-            {data.allMarkdownRemark.edges.map(({ node }, index) => (
+            {data.allMarkdownRemark.edges.map(({ node, post }, index) => (
               <div key={node.id}>
               <div className="event-item tx-ma">
                 <div className={`${index == 0 ? 'h4' : 'd-display'} event-item tx-ma`}>
@@ -78,7 +79,8 @@ date.map((item, index) => {
                 <h3 className={`small italic`}> with {node.frontmatter.by}</h3>
                 <h4 className="">{node.frontmatter.start} to {node.frontmatter.end}</h4>
                 <p className="tx-bl">{node.excerpt}</p><br />
-                <h4 className="tx-bl"> LINK TO EVENT </h4>
+                <h4 className="tx-bl">LINK TO EVENT</h4>
+
                 <hr className="bg-og" />
               </div>
               </div>
@@ -106,6 +108,9 @@ export const query = graphql`
             by
             start
             end
+            image{
+              images
+            }
             dates{
               date
             }

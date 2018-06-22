@@ -24,13 +24,14 @@ collections:
     label: "Events"
     folder: "src/pages/events"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "By", name: "by", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime",format: "LL"}
-      - {label: Dates, name: dates, widget: list, fields:[{label: Date, name: date, widget: "date", default: "", format: "LL"}]}
+      - {label: Dates, name: dates, widget: list, fields:[{label: "Date", name: "date", widget: "date", default: "", format: "LL"}]}
       - {label: "Start time",  name: "start",  widget: "datetime", default: "", format: "hh:mma"}
       - {label: "End time",  name: "end",  widget: "datetime", default: "", format: "hh:mma"}
-      - {label: Image, name: image, widget: image}
+      - {label: "Image", name: "image", widget: "list", fields:[{label: "Images", name: "images", widget: "image"}]}
       - {label: "Description", name: "body", widget: "markdown"}

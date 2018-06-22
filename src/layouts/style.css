@@ -103,6 +103,8 @@ h2 {margin-bottom: 0}
     .text-mobile-align {text-align: center}
     .form-check { position: relative;display: block;  padding-left: 0rem;}
     .d-display { display: -webkit-inline-box; font-size: 12px}
+    .renderOptions { margin-left: 2rem; font-size: 10px;}
+    .form-mrg { margin-left: 0rem;}
 	}
 
   /* Extra Small Devices, Phones */
@@ -198,6 +200,8 @@ h2 {margin-bottom: 0}
     .col-vh-lg { height: 90vh; }
     .text-mobile-align {text-align: left}
     .d-display { display: inline-block; font-size: 14px;}
+    .renderOptions { margin-left: 8rem; font-size: 14px;}
+    .form-mrg { margin-left: 4rem;}
 	}
 
 

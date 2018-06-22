@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
-export const email = (props) => (<Input {...props} type="email" name="email" id="exampleEmail" placeholder="hello@shuffle.ph" />)
+export const email = (props) => (<Input {...props} type="email" name="email" id="exampleEmail" placeholder="hello@shuffle.ph"  />)
 export const Basic = (props) => (<Input {...props} type="text" name={props.name} placeholder={props.placeholder} />)
 export const Time = (props) => (<Input {...props} type="time" name="time" id="exampleTime" placeholder="time placeholder" />)
 export const Num = (props) => (<Input  {...props} type="number" name="number" id="exampleNumber" placeholder={props.placeholder} />)
